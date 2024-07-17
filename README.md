@@ -11,6 +11,6 @@
 
 윤준이형이 왔네?
 ---
-## Study Time!
+## Study Time!!
 - Every Tue     07:50 ~ 08:50
 - Every Fri     07:50 ~ 08:50
