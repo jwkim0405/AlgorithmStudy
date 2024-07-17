@@ -1,5 +1,5 @@
 # 🍀 알바(`AL`gorithm Ja`VA`) ☘️
-SSAFY 12기 7반 엘리트 스 터디😎
+SSAFY 12기 7반 엘리트 스터디😎
 ---
 ## 👩‍💻 Member 🧑‍💻
 - ✨ 혜민 ✨
