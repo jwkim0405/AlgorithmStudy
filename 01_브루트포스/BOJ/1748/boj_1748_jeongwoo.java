@@ -1,7 +1,10 @@
+package BOJ;
+// 알고리즘 분류: 수학
+
 import java.util.Scanner;
 import java.lang.Math;
 
-public class boj_1748_jeongwoo {
+public class _boj_1748 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
