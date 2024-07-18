@@ -11,10 +11,6 @@
   </tr>
 </table><br/>
 
-
-<br/>
-<br/>
-
 ---
 ## 🔥 Study Time!!🔥
 - Every Tue     07:50 ~ 08:50
