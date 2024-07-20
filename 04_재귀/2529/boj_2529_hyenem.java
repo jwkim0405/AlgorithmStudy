@@ -1,4 +1,6 @@
-import java.util.Arrays;
+// 브루트 포스 시행 시간 물어보기!!!
+// 큰 차이 없으면 그냥 브루트 포스로 풀자 ㅠ
+
 import java.util.Scanner;
 
 public class Boj_2529_hyenem {
@@ -39,7 +41,7 @@ public class Boj_2529_hyenem {
 		int[] MaxArr = new int[N+1];
 		int[] MinArr = new int[N+1];
 		
-		//�ִ� ã��
+		//�ִ� ã��
 		int num = 9;
 		while(num>=9-N) {
 			for (int i = 0; i<pointerMax; i++) {
@@ -73,7 +75,7 @@ public class Boj_2529_hyenem {
 		System.out.println();
 		
 		
-		//�ּ� ã��
+		//�ּ� ã��
 		num = 0;
 		while(num<=N) {
 			for (int i = 0; i<pointerMin; i++) {
