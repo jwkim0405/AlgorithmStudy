@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class boj_14500_hyenem {
+public class boj_14500_MotHyenem {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
@@ -12,7 +12,7 @@ public class boj_14500_hyenem {
 				arr[i][j]=sc.nextInt();
 			}
 		}
-		
+	 	
 		for(int i = 1; i<N+3; i++) {
 			arr[i][1]=-4000;
 			arr[i][M+2]=-4000;
@@ -24,9 +24,9 @@ public class boj_14500_hyenem {
 		
 		int sum = 0;
 		int max = 0;
-		//°¡·Î 3°³ ¿¬¼Ó ÀÖ´Â °æ¿ì
+		//ê°€ë¡œ 3ê°œ ì—°ì† ìžˆëŠ” ê²½ìš°
 		for(int i=2; i<N+2; i++) {
-			for (int j = 2; j<M-1; j++) {
+			for (int j = 2; j<M; j++) {
 				int sur = Math.max(Math.max(Math.max(arr[i][j-1], arr[i][j+3]),
 											Math.max(arr[i-1][j], arr[i+1][j])),
 									Math.max(Math.max(arr[i-1][j+1], arr[i+1][j+1]),
@@ -36,8 +36,8 @@ public class boj_14500_hyenem {
 			}
 		}
 		
-		//¼¼·Î 3°³ ¿¬¼Ó ÀÖ´Â °æ¿ì
-		for(int i=2; i<N-1; i++) {
+		//ì„¸ë¡œ 3ê°œ ì—°ì† ìžˆëŠ” ê²½ìš°
+		for(int i=2; i<N; i++) {
 			for (int j = 2; j<M+2; j++) {
 				int sur = Math.max(Math.max(Math.max(arr[i-1][j], arr[i+3][j]),
 											Math.max(arr[i][j-1], arr[i][j+1])),
@@ -48,7 +48,7 @@ public class boj_14500_hyenem {
 			}
 		}
 		
-		//¿¬¼Ó 3°³°¡ ¾ø´Â °æ¿ì
+		//ì—°ì† 3ê°œê°€ ì—†ëŠ” ê²½ìš°
 		for(int i=2; i<N+2; i++) {
 			for (int j = 2; j<M; j++) {
 				int sur = Math.max(Math.max(arr[i-1][j]+arr[i-1][j+1], arr[i-1][j]+arr[i+1][j+1]),
@@ -66,7 +66,6 @@ public class boj_14500_hyenem {
 				if (sum>max) max = sum;
 			}
 		}
-		System.out.print(max);
+		System.out.println(max);
 	}
 }
-
