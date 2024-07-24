@@ -7,7 +7,7 @@
     <td align="center"><a href="https://github.com/jwkim0405"><img src="https://avatars.githubusercontent.com/u/175183384?s=400&v=4" width="100px;" alt=""/><br /><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=jwkim0405" width="100px"><br /><sub><b>정우</b></sub></a><br /><sub><b>merge부장⛙</b><br>ISFJ</br></sub></td>      
     <td align="center"><a href="https://github.com/Listerinnne"><img src="https://avatars.githubusercontent.com/u/78478247?v=4" width="100px;" alt=""/><br /><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=kokheeju" width="100px"><br /><sub><b>희주</b></sub></a><br /><sub><b>회계부장💵</b><br>ISTJ</br></sub></td>      
     <td align="center"><a href="https://github.com/shinyou28"><img src="https://avatars.githubusercontent.com/u/175183511?v=4" width="100px;" alt=""/><br /><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=a99yyoung" width="100px"><br /><sub><b>유영</b></sub></a><br /><sub><b>섭외부장👥</b><br>ISTP</br></sub></td>  
-    <td align="center"><a href="https://github.com/Nekoshoot"><img src="https://avatars.githubusercontent.com/u/175118490?v=4" width="100px;" alt=""/><br /><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=neko1002" width="100px"><br /><sub><b>홍균</b></sub></a><br /><sub><b>카운트다운 부장⏳</b><br>INFP</br></sub></td>
+    <td align="center"><a href="https://github.com/Nekoshoot"><img src="https://avatars.githubusercontent.com/u/175118490?v=4" width="100px;" alt=""/><br /><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=neko1002" width="100px"><br /><sub><b>홍균</b></sub></a><br /><sub><b>시간요정🧚🏻</b><br>INFP</br></sub></td>
   </tr>
 </table><br/>
 
@@ -28,9 +28,9 @@
 
 <br>
 
-## Study Rule 📣
+## 📣Study Rule 📣
 
 - 7시 50분 59초까지 출석 ⭕️
 - 7시 51분 00초부터는 지각 ❗️
-- 벌금은 2,000￦부터! 다음 벌금은 이전 벌금의 ✕ 2 
-- 스터디 시작하기 전에 `pull request`하고 오기 !
+- 벌금은 2,000￦부터! 다음 벌금은 이전 벌금의 ✕ 2 🚨
+- 스터디 시작하기 전에 `pull request`하고 오기 📮
