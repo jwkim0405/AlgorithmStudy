@@ -1,55 +1,22 @@
+import java.util.HashSet;
 import java.util.Scanner;
 
 public class boj_10828_yuyoung {
     public static void main(String[] args) {
-        
         Scanner sc = new Scanner(System.in);
-        int M = sc.nextInt();     // 주어지는 명령의 수
-        int N = 1000;  // 배열 크기, 충분히 큰 값으로 설정
-        int[] arr = new int[N];   // 배열 선언
-        int size = 0;
-        
-        for (int i = 0; i < M; i++) { 
-            String st = sc.next(); // 입력할 명령
-            
-            if (st.equals("push")) { // push를 입력 받았다면
-                if (size < N) { // 스택이 가득 차지 않았다면
-                    int num = sc.nextInt(); // 숫자 입력
-                    arr[size] = num; // 숫자 삽입
-                    size++; // size 크기 증가 및 다음에 push할 인덱스 증가
-                } else {
-                    break; // 스택이 가득 차면 숫자 삽입 불가
-                }
-            }
-            
-            if (st.equals("top")) { // top을 입력 받았다면
-                if (size > 0) { // 스택이 비어있지 않으면
-                    System.out.println(arr[size - 1]); // 스택의 최상단 값 출력
-                } else {
-                    System.out.println(-1); // 스택이 비어있으면 -1 출력
-                }
-            }
-            
-            if (st.equals("size")) { // size를 입력 받았다면
-                System.out.println(size); // 스택의 크기 출력
-            }
-            
-            if (st.equals("empty")) { // empty를 입력 받았다면
-                if (size == 0) {
-                    System.out.println(1); // 스택이 비어있으면 1 출력
-                } else {
-                    System.out.println(0); // 스택이 비어있지 않으면 0 출력
-                }
-            }
-            
-            if (st.equals("pop")) { // pop을 입력 받았다면
-                if (size > 0) { // 스택이 비어있지 않으면
-                    System.out.println(arr[size - 1]); // 스택의 최상단 값 출력
-                    size--; // 스택 크기 감소
-                } else {
-                    System.out.println(-1); // 스택이 비어있으면 -1 출력
+        int N = sc.nextInt(); // 정사각형 갯수
+        HashSet<String> res = new HashSet<>(); // 고유한 직사각형을 저장할 집합
+
+        for (int i = 1; i <= N; i++) { // 첫 번째 변
+            for (int j = 1; j <= N; j++) { // 두 번째 변
+                if (i * j <= N) { // 주어진 정사각형 갯수로 만들 수 있는 경우
+                    int width = Math.min(i, j);
+                    int height = Math.max(i, j);
+                    res.add(width + "x" + height); // 집합에 직사각형 추가
                 }
             }
         }
+        
+        System.out.println(res.size()); // 고유한 직사각형의 갯수 출력
     }
 }
