@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class boj_2292_jeongwoo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
+    int N = sc.nextInt();AZ
         int res;
         int i = 0;
         int last_room = 1;
