@@ -11,20 +11,15 @@ System.out.println("#1: " + Integer.toBinaryString(value1));
 System.out.println("#2: " + Integer.toBinaryString(value2));
 System.out.println("#3: " + Integer.toBinaryString(value1 & value2));
 
-// Q. value1와 value2을 OR 연산해 봅시다.
 System.out.println("#4: " + Integer.toBinaryString(value1 | value2));
 
-// Q. value1와 value2을 XOR 연산해 봅시다.
 System.out.println("#5: " + Integer.toBinaryString(value1 ^ value2));
         
-// Q. value1와 value2을 NOT 연산해 봅시다.
 System.out.println("#6 " + Integer.toBinaryString(~value1));
 System.out.println("#7: " + ~value2);
 
-// Q. value1를 왼쪽으로 1칸씩 비트를 옮겨봅시다.
 System.out.println("#8: " + Integer.toBinaryString(value1 << 1));
 
-// Q. value1를 오른쪽으로 1칸씩 비트를 옮겨봅시다.
 System.out.println("#9: " + (value1 >> 1));
 ```
 
@@ -47,13 +42,11 @@ System.out.println("#9: " + (value1 >> 1));
 
 ### 3. 다음 코드의 출력 값을 작성하고, 해당 결과가 나오는 이유를 설명하세요.
 ```java
-// Q. value7의 값과 value8의 값을 생각해 봅시다.
 int value7 = 10;
 int value8 = 20;
 System.out.println("결과 1: " + (value7 += 10) > 15 | (value8 -= 10) > 15 );
 System.out.println("#1: " + value 7 + ", " + value8);
 
-// Q. value7의 값과 value8의 값을 생각해 봅시다.
 value7 = 10;
 value8 = 20;
 System.out.println("결과 2: " +  (value7 += 10) > 15 || (value8 -= 10) > 15 );
