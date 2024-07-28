@@ -11,15 +11,20 @@ System.out.println("#1: " + Integer.toBinaryString(value1));
 System.out.println("#2: " + Integer.toBinaryString(value2));
 System.out.println("#3: " + Integer.toBinaryString(value1 & value2));
 
+// Q. value1와 value2을 OR 연산해 봅시다.
 System.out.println("#4: " + Integer.toBinaryString(value1 | value2));
 
+// Q. value1와 value2을 XOR 연산해 봅시다.
 System.out.println("#5: " + Integer.toBinaryString(value1 ^ value2));
         
+// Q. value1와 value2을 NOT 연산해 봅시다.
 System.out.println("#6 " + Integer.toBinaryString(~value1));
 System.out.println("#7: " + ~value2);
 
+// Q. value1를 왼쪽으로 1칸씩 비트를 옮겨봅시다.
 System.out.println("#8: " + Integer.toBinaryString(value1 << 1));
 
+// Q. value1를 오른쪽으로 1칸씩 비트를 옮겨봅시다.
 System.out.println("#9: " + (value1 >> 1));
 ```
 
@@ -42,11 +47,13 @@ System.out.println("#9: " + (value1 >> 1));
 
 ### 3. 다음 코드의 출력 값을 작성하고, 해당 결과가 나오는 이유를 설명하세요.
 ```java
+// Q. value7의 값과 value8의 값을 생각해 봅시다.
 int value7 = 10;
 int value8 = 20;
 System.out.println("결과 1: " + (value7 += 10) > 15 | (value8 -= 10) > 15 );
 System.out.println("#1: " + value 7 + ", " + value8);
 
+// Q. value7의 값과 value8의 값을 생각해 봅시다.
 value7 = 10;
 value8 = 20;
 System.out.println("결과 2: " +  (value7 += 10) > 15 || (value8 -= 10) > 15 );
@@ -427,9 +434,104 @@ Student st = (Student) new Person();
 1. (____) class 내에 abstract 키워드를 사용한 메서드가 하나라도 있다면 클래스 선언부에 abstract를 추가해주어야 한다.
 2. (____) 클래스 선언부에 abstract를 추가하면, 객체를 생성할 수 없는 클래스를 의미한다.
 3. (____) abstract 클래스는 구현의 강제를 통해 프로그램의 안정성을 향상시킨다.
+4. (____) 멤버 메서드에는 다형성이 적용되고, 멤버 변수에는 다형성이 적용되지 않는다.
+5. (____) abstract가 붙어있는 클래스 안에 추상 메서드는 하나도 존재하지 않을 때, 객체를 생성할 수 있다.
+6. (____) abstract가 붙어있는 클래스 안에서 객체 배열을 생성할 수 있다.
+7. (____) **상위 클래스 타입으로 자식 클래스를 참조할 수 있다.**
+8. (____) 일반 클래스를 상속받은 자식 클래스를 추상 클래스로 만들 수 있다.
 
 
 <br><br>
+
+### 5. 아래 코드를 보고 출력값을 작성하세요.
+
+```java
+class Parent {
+    String x = "parent x";
+
+    public void method() {
+        System.out.println("parent method");
+    }
+
+    public static void static_method() {
+        System.out.println("parent static method");    
+    }
+}
+
+class Child extends Parent {
+    String x = "child x";
+
+    public void method() {
+        System.out.println("child method");
+    }
+
+    public static void static_method() {
+        System.out.println("child static method");    
+    }
+}
+
+public class BindingTest {
+    public static void main(String[] args) {
+        Parent p = new Child();
+        Child c = new Child();
+
+        System.out.println(p.x);
+        System.out.println(c.x);
+
+        p.method();
+        c.method();
+        
+        p.static_method();
+        c.static_method();
+    }
+}
+```
+
+***정답: (총 6줄)***
+
+1.  
+2.  
+3.  
+4.   
+5.   
+6.   
+
+### 6. 상속 관계에서 메서드가 중복될 때(오버라이딩), 참조 변수의 타입에 상관없이 항상 실제 인스턴스의 자식 클래스 메서드가 호출되는 것을 뜻하는 용어는?
+정답:
+
+<br><br>
+
+### 7. 아래 코드에서 잘못된 부분을 모두 찾아 쓰세요.
+
+```java
+class Animal {
+    private String name;
+    private int age;
+
+    public Animal(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public void eat() {
+        System.out.println("밥을 먹자!");
+    }
+
+    public abstract void speak()
+}
+
+```
+
+정답: 
+<br><br>
+
+### 8. 다형성에 대해 한 문장으로 설명하세요.
+
+
+<br><br><br>
+
+
+
 
 ## Day07_인터페이스, 제네릭
 
