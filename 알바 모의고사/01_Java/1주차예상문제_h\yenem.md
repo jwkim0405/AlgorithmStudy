@@ -81,6 +81,14 @@ public class Manager{
 
 21. 다음이 가능한 경우인가?
 ```java
+class Person{
+    private String name;
+    private int age;
+    Person(Sting name, int age){
+        this.name = name;
+        this.age = age;
+    }
+}
 class Student extends Person{
     String major;
 
