@@ -140,7 +140,7 @@ ex. 정답 예시: 1개, 9번 아래  <br>
 
 ```java
 < 기본 문법 >
-EXIT_FOR(___A___): //레이블명
+EXIT_FOR(___A___) //레이블명
 for(int dan = 1; i <= 9; i++) {
 	System.out.println(" < " + dan + "단 > ");
     	for(int i = 1; i <= 9; i++) {
