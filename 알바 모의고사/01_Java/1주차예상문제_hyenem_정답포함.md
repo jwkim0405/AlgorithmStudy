@@ -94,6 +94,14 @@ public class Manager{
 
 21. 다음이 가능한 경우인가?
 ```java
+class Person{
+    private String name;
+    private int age;
+    Person(Sting name, int age){
+        this.name = name;
+        this.age = age;
+    }
+}
 class Student extends Person{
     String major;
 
@@ -107,8 +115,7 @@ class Student extends Person{
     }
 }
 ```
-// No! name과 age는 Student의 맴버변수가 아님!
-// Person에서 private로 선언된게 아니면 `super.name`, `super.age`로 가져오거나
+// No! name과 age는 Student의 맴버변수가 아님! person에서 private으로 선언되어있으므로 student 클래스에서 접근할 수 없음!
 // Person에서 private으로 선언된거면 `super.getName()`, `super.getAge()`로 가져와야함.
 
 
