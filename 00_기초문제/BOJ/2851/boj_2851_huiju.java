@@ -19,17 +19,11 @@ public class boj_2851_huiju {
 		for(int j=0; j<score.length; j++) {
 			if(nowSum < 100) {	//현재 점수의 총합이 100보다 작을 때
 				updateSum += score[j];	//updateSum에 다음 점수를 더한다.
-//				System.out.println("updateSum = "+updateSum);
-//				System.out.println("nowSum = "+nowSum);
-//				System.out.println();
 				
 				if(updateSum >= 100) {	//만약 updateSum이 100을 넘었다면
 					nowAbs = Math.abs(nowSum-100);
 					updateAbs = Math.abs(updateSum-100);
-//					System.out.println("nowAbs = " + nowAbs);
-//					System.out.println("updateAbs = " + updateAbs);
-//					System.out.println("-------------------");
-					
+
 					if(nowAbs == updateAbs) 	//절대값이 같은 경우 더 큰 수 출력
 						{result = nowSum > updateSum ? nowSum : updateSum ; break;}
 					else 						//절대값이 다른 경우 100에 더 가까운 수 출력

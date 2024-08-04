@@ -21,4 +21,3 @@ class Main {
         System.out.print(sum+100);
     }
 }
-

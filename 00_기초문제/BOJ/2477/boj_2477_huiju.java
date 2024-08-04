@@ -14,11 +14,11 @@ public class boj_2477_huiju {
 		int bSqre = 1;					//방향이 하나인 요소의 큰 사각형 넓이를 저장할 변수
 		int sSqre = 1;					//방향이 두개인 요소의 작은 사각형 넓이를 저장할 변수
 		
-		for(int r=0; r<6; r++) {		//입력값을 배열로 저장
-			for(int c=0; c<2; c++) {	//r : 방향, c : 길이
+		for(int r=0; r<6; r++)		//입력값을 배열로 저장
+			for(int c=0; c<2; c++)	//r : 방향, c : 길이
 				field[r][c] = sc.nextInt();
-			}
-		}
+
+
 		//방향이 두 개씩 있는 값 찾기
 		for(int i=0; i<field.length; i++) {
 			for(int j=i+1; j<field.length; j++) {
@@ -36,8 +36,8 @@ public class boj_2477_huiju {
 		for(int t=0; t<tmpField.length; t++) {
 			if(tmpField[t][0] == 0) {	//방향이 하나인 요소를 찾을 경우
 				bSqre *= field[t][1];	//큰 사각형의 넓이를 구한다.
-				tArr[idx] = t;			//해당 요소의 r좌표를 저장한다.
-				++idx;
+				tArr[idx++] = t;			//해당 요소의 r좌표를 저장한다.
+
 			}
 		}
 		
