@@ -16,7 +16,7 @@ public class boj_2999_yuyoung {
             }
         }
 
-        int cnt = 0;
+        int cnt = 0; // 문자열 인덱스
         char[][] arr = new char[R][C];
         
         for (int c = 0; c < C; c++) {
