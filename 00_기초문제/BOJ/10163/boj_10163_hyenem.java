@@ -12,6 +12,7 @@ class Main{
             int width = sc.nextInt();
             int height = sc.nextInt();
             ans[i]=width*height;
+            
             for (int j =x; j<x+width; j++){
                 for (int k = y; k<y+height; k++){
                     if(arr[j][k]!=0){
