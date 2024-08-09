@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.io.FileInputStream;
 
-class Solution
+class swea_1954_hyenem
 {
 	public static void main(String args[]) throws Exception
 	{
@@ -11,10 +11,10 @@ class Solution
 			int N = sc.nextInt();
 			int[][] arr = new int[N][N];
 			
-			int[] dx = {1,0,-1,0};
-			int[] dy = {0,1,0,-1};
+			int[] dx = {1,0,-1,0};	//델타배열..인데 탐색이 아닌
+			int[] dy = {0,1,0,-1};	//좌 하 우 상
 			
-			int num = 1;
+			int num = 1;	//채워넣을 숫자
 			int x = -1;
 			int y = 0;
 			for( int i = 0; i<2*N-1; i++) {
