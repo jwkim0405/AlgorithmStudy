@@ -1,3 +1,23 @@
+### Color Scripter ###
+Color Scripter_files/
+Color Scripter.html
+
+### inteelij ###
+.idea
+
+### Eclipse ###
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
 # Compiled class file
 *.class
 
