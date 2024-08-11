@@ -29,6 +29,7 @@
 |6회차|8월 2일| |2477, 2309, 2810, <br/> 2851 | |
 |7회차|8월 6일| |2563, 2567, 10163|2590|
 |8회차|8월 9일| |2941, 2999, 3985, <br/> 2839, 17413| |
+|9회차|8월 13일|5356, 4014, 4615|2527, 10158, 11399, 14696, 1158| | 
 
 <br>
 
@@ -44,4 +45,4 @@
 
 ## 🌱 벌금 && 문제 google sheet 🌱
 
-* https://docs.google.com/spreadsheets/d/1M25pfYZXrR03PYGUnrDNMSFSNKln_zmEE0-LgOYIv4w/edit?gid=1243391184#gid=1243391184
+* [벌금&문제 Link](https://docs.google.com/spreadsheets/d/1M25pfYZXrR03PYGUnrDNMSFSNKln_zmEE0-LgOYIv4w/edit?gid=1243391184#gid=1243391184)
