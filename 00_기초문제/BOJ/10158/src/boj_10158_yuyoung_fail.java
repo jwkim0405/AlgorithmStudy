@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class boj_10158_yuyoung {
+public class boj_10158_yuyoung_fail {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
