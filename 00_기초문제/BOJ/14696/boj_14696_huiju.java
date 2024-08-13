@@ -10,7 +10,6 @@ public class boj_14696_huiju {
 		int n = sc.nextInt();
 		
 		for(int i=0; i<n; i++) {
-			
 			int aNum = sc.nextInt();	//a가 가진 그림의 총 개수
 			int[] aArr = new int[aNum];	//a 그림을 저장하는 배열 생성
 			
@@ -55,6 +54,7 @@ public class boj_14696_huiju {
 					break;
 				}
 			}
+			
 		}
 	}
 

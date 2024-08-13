@@ -18,7 +18,6 @@ public class Solution {
 			for (int i = 0; i < SIZE; i++)
 				str[i] = sc.next(); // 배열에 문자열 할당
 
-			
 			StringBuilder sb = new StringBuilder(); // 새롭게 만들어질 문자열 선언
 			int j = -1; // 열의 인덱스
 			OUT: while(true) {
@@ -35,9 +34,7 @@ public class Solution {
 				if (cnt == 5) // 만약 5번 모두(0~4번 인덱스 값) 빈 값이 나왔다면 종료
 					break OUT;
 			}
-			
 			System.out.println("#" + t + " " + sb);
-			
 		}
 	}
 }

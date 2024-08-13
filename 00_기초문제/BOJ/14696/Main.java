@@ -16,7 +16,7 @@ public class Main {
             int a = sc.nextInt();
             a_data = new int[SIZE];
             for (int i = 1; i <= a; i++)
-                a_data[sc.nextInt()]++;
+                a_data[sc.nextInt()]++; // b_data 배열을 만들지 않고, --로 해서 양수음수 판정해도 되구나!
 
             // a 딱지 개수, 각각의 종류들 입력받기
             int b = sc.nextInt();

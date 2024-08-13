@@ -11,7 +11,6 @@ public class Solution {
                 arr[i]=sc.next();
                 if(arr[i].length()>maxSize) maxSize = arr[i].length();
             }
-             
             System.out.print("#"+test_case+" ");
             for(int i = 0; i<maxSize; i++) {
                 for (int j = 0; j<5; j++) {
