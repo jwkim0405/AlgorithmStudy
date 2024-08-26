@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class boj_24444_yuyoung_fail {
+public class boj_24444_yuyoung {
     static ArrayList<ArrayList<Integer>> graph = new ArrayList<>();
     static int[] check;
     static int cnt;
