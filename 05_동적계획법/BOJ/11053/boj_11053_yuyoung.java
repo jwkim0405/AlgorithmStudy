@@ -23,7 +23,7 @@ public class boj_11053_yuyoung {
             LIS(i);
         }
 
-        int max = dp[0]; // 최댓값을 저장할 변수 초기화
+        int max = dp[0];
         // 최장 증가 부분 수열의 길이
         for (int i = 1; i < N; i++) {
             max = Math.max(max, dp[i]);
@@ -35,12 +35,12 @@ public class boj_11053_yuyoung {
 
         // 아직 탐색하지 않은 위치의 경우
         if (dp[N] == null) {
-            dp[N] = 1; // 최소 길이는 1
+            dp[N] = 1; // 최소 길이 1
 
-            // N-1부터 0까지의 값들 중에서 N 위치의 값보다 작은 값을 찾으며 재귀 호출
             for (int i = N - 1; i >= 0; i--) {
+            	// seq[i]가 seq[N]보다 작을 경우
                 if (seq[i] < seq[N]) {
-                    // seq[i]가 seq[N]보다 작다면, 해당 위치의 dp 값을 갱신
+                    // 해당 위치의 dp 값 갱신
                     dp[N] = Math.max(dp[N], LIS(i) + 1);
                 }
             }
