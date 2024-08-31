@@ -8,6 +8,7 @@
     <td align="center"><a href="https://github.com/Listerinnne"><img src="https://avatars.githubusercontent.com/u/175182046?v=4" width="100px;" alt=""/><br /><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=kokheeju2" width="100px"><br /><sub><b>희주</b></sub></a><br /><sub><b>회계부장💵</b><br>ISTJ</br></sub></td>      
     <td align="center"><a href="https://github.com/shinyou28"><img src="https://avatars.githubusercontent.com/u/175183511?v=4" width="100px;" alt=""/><br /><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=a99yyoung" width="100px"><br /><sub><b>유영</b></sub></a><br /><sub><b>섭외부장👥</b><br>ISTP</br></sub></td>  
     <td align="center"><a href="https://github.com/Nekoshoot"><img src="https://avatars.githubusercontent.com/u/175118490?v=4" width="100px;" alt=""/><br /><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=neko1002" width="100px"><br /><sub><b>홍균</b></sub></a><br /><sub><b>시간요정🧚🏻</b><br>INFP</br></sub></td>
+    <td align="center"><a href="https://github.com/marunTurtle"><img src="https://avatars.githubusercontent.com/u/132056894?v=4" width="100px;" alt=""/><br /><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=angle0918" width="100px"><br /><sub><b>재현</b></sub></a><br /><sub><b>📮곧정해짐!📮</b><br>INFP</br></sub></td>
   </tr>
 </table><br/>
 
@@ -36,6 +37,7 @@
 |12회차|8월 23일| | 24479, 24444, 1260 <br> 11403, 2178|13023, 13549, 13913|
 |12회차|8월 27일| |11403, 2178|DFS, BFS 문제 복습 <br>과목평가, 월말평가 대비 |
 |13회차|8월 30일|1953|12865, 11404, 1753, <br>11053, 17144| |
+|14회차|9월 3일|1244, 3234, 1494|9251| BOJ-9252, BOJ-11049|
 
 <br>
 
