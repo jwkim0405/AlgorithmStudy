@@ -34,22 +34,22 @@
       </thead>
       <tbody>
         <tr>
-          <td>[SWEA_1979_어디에 단어가 들어갈 수 있을까](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PuPq6AaQDFAUq)?</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PuPq6AaQDFAUq">SWEA_1979_어디에 단어가 들어갈 수 있을까?</a></td>
         </tr>
         <tr>
-          <td>[SWEA_1206_View](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV134DPqAA8CFAYh)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV134DPqAA8CFAYh">SWEA_1206_View</a></td>
         </tr>
         <tr>
-          <td>[SWEA_1210_ladder1](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14ABYKADACFAYh)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14ABYKADACFAYh">SWEA_1210_ladder1</a></td>
         </tr>
         <tr>
-          <td>[SWEA_1954_달팽이숫자](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PobmqAPoDFAUq)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PobmqAPoDFAUq">SWEA_1954_달팽이숫자</a></td>
         </tr>
         <tr>
-          <td>[SWEA_1215_회문1](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14QpAaAAwCFAYi)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14QpAaAAwCFAYi">SWEA_1215_회문1</a></td>
         </tr>
         <tr>
-          <td>[SWEA_4613_러시아국기같은 깃발](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWQl9TIK8qoDFAXj)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWQl9TIK8qoDFAXj">SWEA_4613_러시아국기같은 깃발</a></td>
         </tr>
       </tbody>
     </table>
@@ -67,22 +67,22 @@
       </thead>
       <tbody>
         <tr>
-          <td>[BOJ_1748_수이어쓰기1](https://www.acmicpc.net/problem/1748)</td>
+          <td><a href="https://www.acmicpc.net/problem/1748">BOJ_1748_수이어쓰기1</a></td>
         </tr>
         <tr>
-          <td>[BOJ_3085_사탕게임](https://www.acmicpc.net/problem/3085)</td>
+          <td><a href="https://www.acmicpc.net/problem/3085">BOJ_3085_사탕게임</a></td>
         </tr>
         <tr>
-          <td>[BOJ_14500_테트로미노](https://www.acmicpc.net/problem/14500)</td>
+          <td><a href="https://www.acmicpc.net/problem/14500">BOJ_14500_테트로미노</a></td>
         </tr>
         <tr>
-          <td>[BOJ_9095_1,2,3더하기](https://www.acmicpc.net/problem/9095)</td>
+          <td><a href="https://www.acmicpc.net/problem/9095">BOJ_9095_1,2,3더하기</a></td>
         </tr>
         <tr>
-          <td>[BOJ_6064_카잉달력](https://www.acmicpc.net/problem/6064)</td>
+          <td><a href="https://www.acmicpc.net/problem/6064">BOJ_6064_카잉달력</a></td>
         </tr>
         <tr>
-          <td>[BOJ_1107_리모컨](https://www.acmicpc.net/problem/1107)</td>
+          <td><a href="https://www.acmicpc.net/problem/1107">BOJ_1107_리모컨</a></td>
         </tr>
       </tbody>
     </table>
@@ -100,22 +100,22 @@
       </thead>
       <tbody>
         <tr>
-          <td>\[BOJ_1244_스위치 켜고 끄기\]\(https://www.acmicpc.net/problem/1244\)</td>
+          <td><a href="https://www.acmicpc.net/problem/1244">BOJ_1244_스위치 켜고 끄기</a></td>
         </tr>
         <tr>
-          <td>[BOJ_1759_암호만들기](https://www.acmicpc.net/problem/1759)</td>
+          <td><a href="https://www.acmicpc.net/problem/1759">BOJ_1759_암호만들기</a></td>
         </tr>
         <tr>
-          <td>[BOJ_14501_퇴사](https://www.acmicpc.net/problem/14501)</td>
+          <td><a href="https://www.acmicpc.net/problem/14501">BOJ_14501_퇴사</a></td>
         </tr>
         <tr>
-          <td>[BOJ_14889_스타트와링크](https://www.acmicpc.net/problem/14889)</td>
+          <td><a href="https://www.acmicpc.net/problem/14889">BOJ_14889_스타트와링크</a></td>
         </tr>
         <tr>
-          <td>[BOJ_2529_부등호](https://www.acmicpc.net/problem/2529)</td>
+          <td><a href="https://www.acmicpc.net/problem/2529">BOJ_2529_부등호</a></td>
         </tr>
         <tr>
-          <td>[BOJ_10828_스택](https://www.acmicpc.net/problem/10828)</td>
+          <td><a href="https://www.acmicpc.net/problem/10828">BOJ_10828_스택</a></td>
         </tr>
       </tbody>
     </table>
@@ -134,23 +134,23 @@
       </thead>
       <tbody>
         <tr>
-          <td>[BOJ_1592_영식이와친구들](https://www.acmicpc.net/problem/1592)</td>
-          <td>[BOJ_2225_합분해](https://www.acmicpc.net/problem/2225)</td>
+          <td><a href="https://www.acmicpc.net/problem/1592">BOJ_1592_영식이와친구들</a></td>
+          <td><a href="https://www.acmicpc.net/problem/2225">BOJ_2225_합분해</a></td>
         </tr>
         <tr>
-          <td>[BOJ_2292_벌집](https://www.acmicpc.net/problem/2292)</td>
-          <td>[BOJ_17404_RGB거리2](https://www.acmicpc.net/problem/17404)</td>
+          <td><a href="https://www.acmicpc.net/problem/2292">BOJ_2292_벌집</a></td>
+          <td><a href="https://www.acmicpc.net/problem/17404">BOJ_17404_RGB거리2</a></td>
         </tr>
         <tr>
-          <td>[BOJ_2798_블랙잭](https://www.acmicpc.net/problem/2798)</td>
+          <td><a href="https://www.acmicpc.net/problem/2798">BOJ_2798_블랙잭</a></td>
           <td></td>
         </tr>
         <tr>
-          <td>[BOJ_3052_나머지](https://www.acmicpc.net/problem/3052)</td>
+          <td><a href="https://www.acmicpc.net/problem/3052">BOJ_3052_나머지</a></td>
           <td></td>
         </tr>
         <tr>
-          <td>[BOJ_8320_직사각형을만드는방법](https://www.acmicpc.net/problem/8320)</td>
+          <td><a href="https://www.acmicpc.net/problem/8320">BOJ_8320_직사각형을만드는방법</a></td>
           <td></td>
         </tr>
       </tbody>
@@ -170,16 +170,16 @@
       </thead>
       <tbody>
         <tr>
-          <td>[BOJ_8958_OX퀴즈](https://www.acmicpc.net/problem/8958)</td>
-          <td>[BOJ_2667_단지번호붙이기](https://www.acmicpc.net/problem/2667)</td>
+          <td><a href="https://www.acmicpc.net/problem/8958">BOJ_8958_OX퀴즈</a></td>
+          <td><a href="https://www.acmicpc.net/problem/2667">BOJ_2667_단지번호붙이기</a></td>
         </tr>
         <tr>
-          <td>[BOJ_13300_방배정](https://www.acmicpc.net/problem/13300)</td>
-          <td>[BOJ_11724_연결요소의개수](https://www.acmicpc.net/problem/11724)</td>
+          <td><a href="https://www.acmicpc.net/problem/13300">BOJ_13300_방배정</a></td>
+          <td><a href="https://www.acmicpc.net/problem/11724">BOJ_11724_연결요소의개수</a></td>
         </tr>
         <tr>
           <td></td>
-          <td>[BOJ_1260_DFS와BFS](https://www.acmicpc.net/problem/1260)</td>
+          <td><a href="https://www.acmicpc.net/problem/1260">BOJ_1260_DFS와BFS</a></td>
         </tr>
       </tbody>
     </table>
@@ -197,16 +197,16 @@
       </thead>
       <tbody>
         <tr>
-          <td>[BOJ_2477_참외밭](https://www.acmicpc.net/problem/2477)</td>
+          <td><a href="https://www.acmicpc.net/problem/2477">BOJ_2477_참외밭</a></td>
         </tr>
         <tr>
-          <td>[BOJ_2309_일곱난쟁이](https://www.acmicpc.net/problem/2309)</td>
+          <td><a href="https://www.acmicpc.net/problem/2309">BOJ_2309_일곱난쟁이</a></td>
         </tr>
         <tr>
-          <td>[BOJ_2810_컵홀더](https://www.acmicpc.net/problem/2810)</td>
+          <td><a href="https://www.acmicpc.net/problem/2810">BOJ_2810_컵홀더</a></td>
         </tr>
         <tr>
-          <td>[BOJ_2851_슈퍼마리오](https://www.acmicpc.net/problem/2851)</td>
+          <td><a href="https://www.acmicpc.net/problem/2851">BOJ_2851_슈퍼마리오</a></td>
         </tr>
       </tbody>
     </table>
@@ -225,15 +225,15 @@
       </thead>
       <tbody>
         <tr>
-          <td>[BOJ_2563_색종이](https://www.acmicpc.net/problem/2563)</td>
-          <td>[BOJ_2590_색종이](https://www.acmicpc.net/problem/2590)</td>
+          <td><a href="https://www.acmicpc.net/problem/2563">BOJ_2563_색종이</a></td>
+          <td><a href="https://www.acmicpc.net/problem/2590">BOJ_2590_색종이</a></td>
         </tr>
         <tr>
-          <td>[BOJ_2567_색종이2](https://www.acmicpc.net/problem/2567)</td>
+          <td><a href="https://www.acmicpc.net/problem/2567">BOJ_2567_색종이2</a></td>
           <td></td>
         </tr>
         <tr>
-          <td>[BOJ_10163_색종이](https://www.acmicpc.net/problem/10163)</td>
+          <td><a href="https://www.acmicpc.net/problem/10163">BOJ_10163_색종이</a></td>
           <td></td>
         </tr>
       </tbody>
@@ -252,19 +252,19 @@
       </thead>
       <tbody>
         <tr>
-          <td>[BOJ_2941_크로아티아알파벳](https://www.acmicpc.net/problem/2941)</td>
+          <td><a href="https://www.acmicpc.net/problem/2941">BOJ_2941_크로아티아알파벳</a></td>
         </tr>
         <tr>
-          <td>[BOJ_2999_비밀이메일](https://www.acmicpc.net/problem/2999)</td>
+          <td><a href="https://www.acmicpc.net/problem/2999">BOJ_2999_비밀이메일</a></td>
         </tr>
         <tr>
-          <td>[BOJ_3985_롤케이크](https://www.acmicpc.net/problem/3985)</td>
+          <td><a href="https://www.acmicpc.net/problem/3985">BOJ_3985_롤케이크</a></td>
         </tr>
         <tr>
-          <td>[BOJ_2839_설탕 배달](https://www.acmicpc.net/problem/2839)</td>
+          <td><a href="https://www.acmicpc.net/problem/2839">BOJ_2839_설탕 배달</a></td>
         </tr>
         <tr>
-          <td>[BOJ_17413_단어뒤집기2](https://www.acmicpc.net/problem/17413)</td>
+          <td><a href="https://www.acmicpc.net/problem/17413">BOJ_17413_단어뒤집기2</a></td>
         </tr>
       </tbody>
     </table>
@@ -282,28 +282,28 @@
       </thead>
       <tbody>
         <tr>
-          <td>[SWEA_5356_의석이의세로로말해요](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWVWgkP6sQ0DFAUO)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWVWgkP6sQ0DFAUO">SWEA_5356_의석이의세로로말해요</a></td>
         </tr>
         <tr>
-          <td>[SWEA_4014_활주로건설](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeW7FakkUDFAVH)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeW7FakkUDFAVH">SWEA_4014_활주로건설</a></td>
         </tr>
         <tr>
-          <td>[SWEA_4615_재미있는오셀로게임](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWQmA4uK8ygDFAXj)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWQmA4uK8ygDFAXj">SWEA_4615_재미있는오셀로게임</a></td>
         </tr>
         <tr>
-          <td>[BOJ_2527_직사각형](https://www.acmicpc.net/problem/2527)</td>
+          <td><a href="https://www.acmicpc.net/problem/2527">BOJ_2527_직사각형</a></td>
         </tr>
         <tr>
-          <td>[BOJ_10158_개미](https://www.acmicpc.net/problem/10158)</td>
+          <td><a href="https://www.acmicpc.net/problem/10158">BOJ_10158_개미</a></td>
         </tr>
         <tr>
-          <td>[BOJ_11399_ATM퀴즈](https://www.acmicpc.net/problem/11399)</td>
+          <td><a href="https://www.acmicpc.net/problem/11399">BOJ_11399_ATM퀴즈</a></td>
         </tr>
         <tr>
-          <td>[BOJ_14696_딱지놀이](https://www.acmicpc.net/problem/14696)</td>
+          <td><a href="https://www.acmicpc.net/problem/14696">BOJ_14696_딱지놀이</a></td>
         </tr>
         <tr>
-          <td>[BOJ_1158_요세푸스 문제](https://www.acmicpc.net/problem/1158)</td>
+          <td><a href="https://www.acmicpc.net/problem/1158">BOJ_1158_요세푸스 문제</a></td>
         </tr>
       </tbody>
     </table>
@@ -322,23 +322,23 @@
       </thead>
       <tbody>
         <tr>
-          <td>[SWEA_2115_벌꿀채취](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V4A46AdIDFAWu)</td>
-          <td>[BOJ_1260_DFS와BFS](https://www.acmicpc.net/problem/1260)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V4A46AdIDFAWu">SWEA_2115_벌꿀채취</a></td>
+          <td><a href="https://www.acmicpc.net/problem/1260">BOJ_1260_DFS와BFS</a></td>
         </tr>
         <tr>
-          <td>[SWEA_4012_요리사](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeUtVakTMDFAVH)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeUtVakTMDFAVH">SWEA_4012_요리사</a></td>
           <td></td>
         </tr>
         <tr>
-          <td>[SWEA_1952_수영장](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpFQaAQMDFAUq)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpFQaAQMDFAUq">SWEA_1952_수영장</a></td>
           <td></td>
         </tr>
         <tr>
-          <td>[SWEA_4013_특이한자석](https://swexpertacademy.com/main/learn/course/subjectDetail.do?subjectId=AWJRz2T6DVYDFAXc)</td>
+          <td><a href="https://swexpertacademy.com/main/learn/course/subjectDetail.do?subjectId=AWJRz2T6DVYDFAXc">SWEA_4013_특이한자석</a></td>
           <td></td>
         </tr>
         <tr>
-          <td>[BOJ_17471_게리맨더링](https://www.acmicpc.net/problem/17471)</td>
+          <td><a href="https://www.acmicpc.net/problem/17471">BOJ_17471_게리맨더링</a></td>
           <td></td>
         </tr>
       </tbody>
@@ -357,46 +357,46 @@
       </thead>
       <tbody>
         <tr>
-          <td>[SWEA_11315_오목 판정](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXaSUPYqPYMDFASQ)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXaSUPYqPYMDFASQ">SWEA_11315_오목 판정</a></td>
         </tr>
         <tr>
-          <td>[SWEA_1860_진기의최고급붕어빵](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LsaaqDzYDFAXc)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LsaaqDzYDFAXc">SWEA_1860_진기의최고급붕어빵</a></td>
         </tr>
         <tr>
-          <td>[SWEA_1940_가랏! RC카](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PjMgaALgDFAUq)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PjMgaALgDFAUq">SWEA_1940_가랏! RC카</a></td>
         </tr>
         <tr>
-          <td>[SWEA_1952_수영장](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpFQaAQMDFAUq)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpFQaAQMDFAUq">SWEA_1952_수영장</a></td>
         </tr>
         <tr>
-          <td>[SWEA_1974_스도쿠검증](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5Psz16AYEDFAUq)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5Psz16AYEDFAUq">SWEA_1974_스도쿠검증</a></td>
         </tr>
         <tr>
-          <td>[SWEA_2005_파스칼의 삼각형](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5P0-h6Ak4DFAUq)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5P0-h6Ak4DFAUq">SWEA_2005_파스칼의 삼각형</a></td>
         </tr>
         <tr>
-          <td>[SWEA_2115_벌꿀채취](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V4A46AdIDFAWu)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V4A46AdIDFAWu">SWEA_2115_벌꿀채취</a></td>
         </tr>
         <tr>
-          <td>[SWEA_2382_미생물격리](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV597vbqAH0DFAVl)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV597vbqAH0DFAVl">SWEA_2382_미생물격리</a></td>
         </tr>
         <tr>
-          <td>[SWEA_3499_퍼펙트셔플](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWGsRbk6AQIDFAVW)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWGsRbk6AQIDFAVW">SWEA_3499_퍼펙트셔플</a></td>
         </tr>
         <tr>
-          <td>[SWEA_4012_요리사](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeUtVakTMDFAVH)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeUtVakTMDFAVH">SWEA_4012_요리사</a></td>
         </tr>
         <tr>
-          <td>[SWEA_4013_특이한자석](https://swexpertacademy.com/main/learn/course/subjectDetail.do?subjectId=AWJRz2T6DVYDFAXc)</td>
+          <td><a href="https://swexpertacademy.com/main/learn/course/subjectDetail.do?subjectId=AWJRz2T6DVYDFAXc">SWEA_4013_특이한자석</a></td>
         </tr>
         <tr>
-          <td>[SWEA_4014_활주로건설](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeW7FakkUDFAVH)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeW7FakkUDFAVH">SWEA_4014_활주로건설</a></td>
         </tr>
         <tr>
-          <td>[SWEA_4615_재미있는오셀로게임](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWQmA4uK8ygDFAXj)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWQmA4uK8ygDFAXj">SWEA_4615_재미있는오셀로게임</a></td>
         </tr>
         <tr>
-          <td>[SWEA_5432_쇠막대기자르기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWVl47b6DGMDFAXm)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWVl47b6DGMDFAXm">SWEA_5432_쇠막대기자르기</a></td>
         </tr>
       </tbody>
     </table>
@@ -414,25 +414,25 @@
       </thead>
       <tbody>
         <tr>
-          <td>[SWEA_5656_벽돌깨기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRQm6qfL0DFAUo)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRQm6qfL0DFAUo">SWEA_5656_벽돌깨기</a></td>
         </tr>
         <tr>
           <td>SWEA_1486_장훈이의높은선반</td>
         </tr>
         <tr>
-          <td>[SWEA_2817_부분수열의합](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7IzvG6EksDFAXB)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7IzvG6EksDFAXB">SWEA_2817_부분수열의합</a></td>
         </tr>
         <tr>
-          <td>[SWEA_2806_NQueen](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7GKs06AU0DFAXB)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7GKs06AU0DFAXB">SWEA_2806_NQueen</a></td>
         </tr>
         <tr>
-          <td>[SWEA_6808_규영이와인영이의카드게임](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWgv9va6HnkDFAW0)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWgv9va6HnkDFAW0">SWEA_6808_규영이와인영이의카드게임</a></td>
         </tr>
         <tr>
-          <td>[BOJ_11403_경로찾기](https://www.acmicpc.net/problem/11403)</td>
+          <td><a href="https://www.acmicpc.net/problem/11403">BOJ_11403_경로찾기</a></td>
         </tr>
         <tr>
-          <td>[BOJ_2178_미로탐색](https://www.acmicpc.net/problem/2178)</td>
+          <td><a href="https://www.acmicpc.net/problem/2178">BOJ_2178_미로탐색</a></td>
         </tr>
       </tbody>
     </table>
@@ -455,19 +455,19 @@
           <td>13023_친구</td>
         </tr>
         <tr>
-          <td>[BOJ_24444_너비우선탐색1](https://www.acmicpc.net/problem/24444)</td>
+          <td><a href="https://www.acmicpc.net/problem/24444">BOJ_24444_너비우선탐색1</a></td>
           <td>13549_숨바꼭질</td>
         </tr>
         <tr>
-          <td>[BOJ_1260_DFS와BFS](https://www.acmicpc.net/problem/1260)</td>
+          <td><a href="https://www.acmicpc.net/problem/1260">BOJ_1260_DFS와BFS</a></td>
           <td>13913_숨바꼭질4</td>
         </tr>
         <tr>
-          <td>[BOJ_11403_경로찾기](https://www.acmicpc.net/problem/11403)</td>
+          <td><a href="https://www.acmicpc.net/problem/11403">BOJ_11403_경로찾기</a></td>
           <td></td>
         </tr>
         <tr>
-          <td>[BOJ_2178_미로탐색](https://www.acmicpc.net/problem/2178)</td>
+          <td><a href="https://www.acmicpc.net/problem/2178">BOJ_2178_미로탐색</a></td>
           <td></td>
         </tr>
       </tbody>
@@ -487,11 +487,11 @@
       </thead>
       <tbody>
         <tr>
-          <td>[BOJ_11403_경로찾기](https://www.acmicpc.net/problem/11403)</td>
+          <td><a href="https://www.acmicpc.net/problem/11403">BOJ_11403_경로찾기</a></td>
           <td>DFS-BFS 문제 복습</td>
         </tr>
         <tr>
-          <td>[BOJ_2178_미로탐색](https://www.acmicpc.net/problem/2178)</td>
+          <td><a href="https://www.acmicpc.net/problem/2178">BOJ_2178_미로탐색</a></td>
           <td>과목평가</td>
         </tr>
         <tr>
@@ -514,22 +514,22 @@
       </thead>
       <tbody>
         <tr>
-          <td>[SWEA_1953_탈주범검거](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpLlKAQ4DFAUq)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpLlKAQ4DFAUq">SWEA_1953_탈주범검거</a></td>
         </tr>
         <tr>
-          <td>[BOJ_12865_평범한배낭](https://www.acmicpc.net/problem/12865)</td>
+          <td><a href="https://www.acmicpc.net/problem/12865">BOJ_12865_평범한배낭</a></td>
         </tr>
         <tr>
-          <td>[BOJ_11404_플로이드](https://www.acmicpc.net/problem/11404)</td>
+          <td><a href="https://www.acmicpc.net/problem/11404">BOJ_11404_플로이드</a></td>
         </tr>
         <tr>
-          <td>[BOJ_1753_최단경로](https://www.acmicpc.net/problem/1753)</td>
+          <td><a href="https://www.acmicpc.net/problem/1753">BOJ_1753_최단경로</a></td>
         </tr>
         <tr>
-          <td>[BOJ_11053_가장긴증가하는부분수열](https://www.acmicpc.net/problem/11053)</td>
+          <td><a href="https://www.acmicpc.net/problem/11053">BOJ_11053_가장긴증가하는부분수열</a></td>
         </tr>
         <tr>
-          <td>[BOJ_17144_미세먼지안녕](https://www.acmicpc.net/problem/17144)</td>
+          <td><a href="https://www.acmicpc.net/problem/17144">BOJ_17144_미세먼지안녕</a></td>
         </tr>
       </tbody>
     </table>
@@ -547,13 +547,13 @@
       </thead>
       <tbody>
         <tr>
-          <td>[SWEA_2383_점심식사시간](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5-BEE6AK0DFAVl&categoryId=AV5-BEE6AK0DFAVl&categoryType=CODE&problemTitle=2383&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5-BEE6AK0DFAVl&categoryId=AV5-BEE6AK0DFAVl&categoryType=CODE&problemTitle=2383&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1">SWEA_2383_점심식사시간</a></td>
         </tr>
         <tr>
-          <td>[SWEA_7733_치즈도둑](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWrDOdQqRCUDFARG)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWrDOdQqRCUDFARG">SWEA_7733_치즈도둑</a></td>
         </tr>
         <tr>
-          <td>[SWEA_1952_수영장](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpFQaAQMDFAUq)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpFQaAQMDFAUq">SWEA_1952_수영장</a></td>
         </tr>
       </tbody>
     </table>
@@ -573,18 +573,18 @@
       <tbody>
         <tr>
           <td>SWEA_1244_최대수 구하기</td>
-          <td>[BOJ_9252_LCS2](https://www.acmicpc.net/problem/9252)</td>
+          <td><a href="https://www.acmicpc.net/problem/9252">BOJ_9252_LCS2</a></td>
         </tr>
         <tr>
-          <td>[SWEA_3234_준환이의 양팔저울](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWAe7XSKfUUDFAUw)</td>
-          <td>[BOJ_11049_행렬곱셈순서](https://www.acmicpc.net/problem/11049)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWAe7XSKfUUDFAUw">SWEA_3234_준환이의 양팔저울</a></td>
+          <td><a href="https://www.acmicpc.net/problem/11049">BOJ_11049_행렬곱셈순서</a></td>
         </tr>
         <tr>
-          <td>[SWEA_1494_사랑의카운슬러](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV2b_WPaAEIBBASw)</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV2b_WPaAEIBBASw">SWEA_1494_사랑의카운슬러</a></td>
           <td></td>
         </tr>
         <tr>
-          <td>[BOJ_9251_LCS](https://www.acmicpc.net/problem/9251)</td>
+          <td><a href="https://www.acmicpc.net/problem/9251">BOJ_9251_LCS</a></td>
           <td></td>
         </tr>
       </tbody>
@@ -598,23 +598,23 @@
 
 |차수|날짜|SWEA|BOJ|자율|
 |:----:|:----:|:----:|:----:|:----:|
-|1회차|7월 16일|[SWEA_1979_어디에 단어가 들어갈 수 있을까](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PuPq6AaQDFAUq)?, SWEA_1206_View, SWEA_1210_ladder1,<br/> SWEA_1954_달팽이숫자, SWEA_1215_회문1, SWEA_4613_러시아국기같은 깃발| | |
-|2회차|7월 19일| |BOJ_1748_수이어쓰기1, BOJ_3085_사탕게임, BOJ_14500_테트로미노,<br/> BOJ_9095_1,2,3더하기, BOJ_6064_카잉달력, [BOJ_1107_리모컨](https://www.acmicpc.net/problem/1107)| |
-|3회차|7월 23일| |BOJ_1244_스위치 켜고 끄기<br/> BOJ_1759_암호만들기, BOJ_14501_퇴사<br/> BOJ_14889_스타트와링크, BOJ_2529_부등호 <br>[BOJ_10828_스택](https://www.acmicpc.net/problem/10828)| |
-|4회차|7월 26일| |BOJ_1592_영식이와친구들, BOJ_2292_벌집, BOJ_2798_블랙잭<br/> BOJ_3052_나머지, BOJ_8320_직사각형을만드는방법 |BOJ_2225_합분해, [BOJ_17404_RGB거리2](https://www.acmicpc.net/problem/17404)|
-|5회차|7월 30일| |BOJ_8958_OX퀴즈, BOJ_13300_방배정 |[BOJ_1260_DFS와BFS](https://www.acmicpc.net/problem/1260), BOJ_2667_단지번호붙이기, BOJ_11724_연결요소의개수|
-|6회차|8월 2일| |BOJ_2477_참외밭, BOJ_2309_일곱난쟁이, BOJ_2810_컵홀더, <br/> [BOJ_2851_슈퍼마리오](https://www.acmicpc.net/problem/2851) | |
-|7회차|8월 6일| |BOJ_2563_색종이, BOJ_2567_색종이2, BOJ_10163_색종이|[BOJ_2590_색종이](https://www.acmicpc.net/problem/2590)|
-|8회차|8월 9일| |BOJ_2941_크로아티아알파벳, BOJ_2999_비밀이메일, BOJ_3985_롤케이크, <br/> BOJ_2839_설탕 배달, [BOJ_17413_단어뒤집기2](https://www.acmicpc.net/problem/17413)| |
-|9회차|8월 13일|SWEA_5356_의석이의세로로말해요, SWEA_4014_활주로건설, SWEA_4615_재미있는오셀로게임|BOJ_2527_직사각형, BOJ_10158_개미, BOJ_11399_ATM퀴즈<br> [BOJ_14696_딱지놀이](https://www.acmicpc.net/problem/14696), BOJ_1158_요세푸스 문제| | 
-|10회차|8월 16일|SWEA_2115_벌꿀채취, SWEA_4012_요리사, [SWEA_1952_수영장](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpFQaAQMDFAUq)<br>SWEA_4013_특이한자석|BOJ_17471_게리맨더링|BOJ_1260_DFS와BFS| 
-|10-11회차<br>(팀 SK하이닉스)|8월 20일|SWEA_11315_오목 판정, SWEA_1860_진기의최고급붕어빵, SWEA_1940_가랏! RC카<br/>[SWEA_1952_수영장](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpFQaAQMDFAUq), SWEA_1974_스도쿠검증, SWEA_2005_파스칼의 삼각형<br/>SWEA_2115_벌꿀채취, SWEA_2382_미생물격리, SWEA_3499_퍼펙트셔플<br/>SWEA_4012_요리사, SWEA_4013_특이한자석, SWEA_4014_활주로건설<br/>SWEA_4615_재미있는오셀로게임, SWEA_5432_쇠막대기자르기| | 
-|11회차|8월 20일|SWEA_5656_벽돌깨기, SWEA_1486_장훈이의높은선반, SWEA_2817_부분수열의합, <br> SWEA_2806_NQueen, SWEA_6808_규영이와인영이의카드게임| BOJ_11403_경로찾기, [BOJ_2178_미로탐색](https://www.acmicpc.net/problem/2178)| |
-|12회차|8월 23일| | BOJ_24479_알고리즘, BOJ_24444_너비우선탐색1, [BOJ_1260_DFS와BFS](https://www.acmicpc.net/problem/1260) <br> BOJ_11403_경로찾기, BOJ_2178_미로탐색|13023_친구, 13549_숨바꼭질, 13913_숨바꼭질4|
-|12회차|8월 27일| |BOJ_11403_경로찾기, [BOJ_2178_미로탐색](https://www.acmicpc.net/problem/2178)|DFS, BFS 문제 복습 <br>과목평가, 월말평가 대비 |
-|13회차|8월 30일|SWEA_1953_탈주범검거|BOJ_12865_평범한배낭, BOJ_11404_플로이드, BOJ_1753_최단경로, <br>BOJ_11053_가장긴증가하는부분수열, [BOJ_17144_미세먼지안녕](https://www.acmicpc.net/problem/17144)| |
-|14회차|9월 3일|SWEA_2383_점심식사시간, SWEA_7733_치즈도둑, [SWEA_1952_수영장](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpFQaAQMDFAUq)| | |
-|15회차|9월 6일|SWEA_1244_최대수 구하기, SWEA_3234_준환이의 양팔저울, SWEA_1494_사랑의카운슬러|BOJ_9251_LCS| BOJ_9252_LCS2, [BOJ_11049_행렬곱셈순서](https://www.acmicpc.net/problem/11049)|
+|1회차|7월 16일|SWEA_1979_어디에 단어가 들어갈 수 있을까, SWEA_1206_View, SWEA_1210_ladder1,<br/> SWEA_1954_달팽이숫자, SWEA_1215_회문1, SWEA_4613_러시아국기같은 깃발| | |
+|2회차|7월 19일| |BOJ_1748_수이어쓰기1, BOJ_3085_사탕게임, BOJ_14500_테트로미노,<br/> BOJ_9095_1,2,3더하기, BOJ_6064_카잉달력, BOJ_1107_리모컨| |
+|3회차|7월 23일| |BOJ_1244_스위치 켜고 끄기<br/> BOJ_1759_암호만들기, BOJ_14501_퇴사<br/> BOJ_14889_스타트와링크, BOJ_2529_부등호 <br>BOJ_10828_스택| |
+|4회차|7월 26일| |BOJ_1592_영식이와친구들, BOJ_2292_벌집, BOJ_2798_블랙잭<br/> BOJ_3052_나머지, BOJ_8320_직사각형을만드는방법 |BOJ_2225_합분해, BOJ_17404_RGB거리2|
+|5회차|7월 30일| |BOJ_8958_OX퀴즈, BOJ_13300_방배정 |BOJ_1260_DFS와BFS, BOJ_2667_단지번호붙이기, BOJ_11724_연결요소의개수|
+|6회차|8월 2일| |BOJ_2477_참외밭, BOJ_2309_일곱난쟁이, BOJ_2810_컵홀더, <br/> BOJ_2851_슈퍼마리오| |
+|7회차|8월 6일| |BOJ_2563_색종이, BOJ_2567_색종이2, BOJ_10163_색종이|BOJ_2590_색종이|
+|8회차|8월 9일| |BOJ_2941_크로아티아알파벳, BOJ_2999_비밀이메일, BOJ_3985_롤케이크, <br/> BOJ_2839_설탕 배달, BOJ_17413_단어뒤집기2| |
+|9회차|8월 13일|SWEA_5356_의석이의세로로말해요, SWEA_4014_활주로건설, SWEA_4615_재미있는오셀로게임|BOJ_2527_직사각형, BOJ_10158_개미, BOJ_11399_ATM퀴즈<br> BOJ_14696_딱지놀이, BOJ_1158_요세푸스 문제| | 
+|10회차|8월 16일|SWEA_2115_벌꿀채취, SWEA_4012_요리사, SWEA_1952_수영장<br>SWEA_4013_특이한자석|BOJ_17471_게리맨더링|BOJ_1260_DFS와BFS| 
+|10-11회차<br>(팀 SK하이닉스)|8월 20일|SWEA_11315_오목 판정, SWEA_1860_진기의최고급붕어빵, SWEA_1940_가랏! RC카<br/>SWEA_1952_수영장, SWEA_1974_스도쿠검증, SWEA_2005_파스칼의 삼각형<br/>SWEA_2115_벌꿀채취, SWEA_2382_미생물격리, SWEA_3499_퍼펙트셔플<br/>SWEA_4012_요리사, SWEA_4013_특이한자석, SWEA_4014_활주로건설<br/>SWEA_4615_재미있는오셀로게임, SWEA_5432_쇠막대기자르기| | 
+|11회차|8월 20일|SWEA_5656_벽돌깨기, SWEA_1486_장훈이의높은선반, SWEA_2817_부분수열의합, <br> SWEA_2806_NQueen, SWEA_6808_규영이와인영이의카드게임| BOJ_11403_경로찾기, BOJ_2178_미로탐색| |
+|12회차|8월 23일| | BOJ_24479_알고리즘, BOJ_24444_너비우선탐색1, BOJ_1260_DFS와BFS <br> BOJ_11403_경로찾기, BOJ_2178_미로탐색|13023_친구, 13549_숨바꼭질, 13913_숨바꼭질4|
+|12회차|8월 27일| |BOJ_11403_경로찾기, BOJ_2178_미로탐색|DFS, BFS 문제 복습 <br>과목평가, 월말평가 대비 |
+|13회차|8월 30일|SWEA_1953_탈주범검거|BOJ_12865_평범한배낭, BOJ_11404_플로이드, BOJ_1753_최단경로, <br>BOJ_11053_가장긴증가하는부분수열, BOJ_17144_미세먼지안녕| |
+|14회차|9월 3일|SWEA_2383_점심식사시간, SWEA_7733_치즈도둑, SWEA_1952_수영장| | |
+|15회차|9월 6일|SWEA_1244_최대수 구하기, SWEA_3234_준환이의 양팔저울, SWEA_1494_사랑의카운슬러|BOJ_9251_LCS| BOJ_9252_LCS2, BOJ_11049_행렬곱셈순서|
 
 
 <br>
