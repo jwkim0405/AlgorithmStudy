@@ -572,7 +572,7 @@
       </thead>
       <tbody>
         <tr>
-          <td>SWEA_1244_최대수 구하기</td>
+          <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5QQhbqA4QDFAUq">SWEA_2068_최대수 구하기</a></td>
           <td><a href="https://www.acmicpc.net/problem/9252">BOJ_9252_LCS2</a></td>
         </tr>
         <tr>
