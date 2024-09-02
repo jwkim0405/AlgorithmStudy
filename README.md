@@ -21,7 +21,7 @@
 ## 🗂️ Problem of the Date 🗂️
 
 <details>
-  <summary><h3>문제 보기<h3></summary>
+  <summary><strong>문제 보기</strong></summary>
 <br>
 <details>
   <summary>1회차 (24.07.16)</summary>
