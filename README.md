@@ -21,6 +21,582 @@
 
 ## 🗂️ Problem of the Date 🗂️
 
+<details>
+  <summary>문제 보기</summary>
+
+<details>
+  <summary>1회차 (24.07.16)</summary>
+  <div markdown="1">
+    <table>
+      <thead>
+        <tr>
+          <th>공통</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>SWEA_1979</td>
+        </tr>
+        <tr>
+          <td>SWEA_1206</td>
+        </tr>
+        <tr>
+          <td>SWEA_1210</td>
+        </tr>
+        <tr>
+          <td>SWEA_1954</td>
+        </tr>
+        <tr>
+          <td>SWEA_1215</td>
+        </tr>
+        <tr>
+          <td>SWEA_4613</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</details>
+
+<details>
+  <summary>2회차 (24.07.19)</summary>
+  <div markdown="1">
+    <table>
+      <thead>
+        <tr>
+          <th>공통</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>BOJ_1748</td>
+        </tr>
+        <tr>
+          <td>BOJ_3085</td>
+        </tr>
+        <tr>
+          <td>BOJ_14500</td>
+        </tr>
+        <tr>
+          <td>BOJ_9095</td>
+        </tr>
+        <tr>
+          <td>BOJ_6064</td>
+        </tr>
+        <tr>
+          <td>BOJ_1107</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</details>
+
+<details>
+  <summary>3회차 (24.07.23)</summary>
+  <div markdown="1">
+    <table>
+      <thead>
+        <tr>
+          <th>공통</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>BOJ_1244</td>
+        </tr>
+        <tr>
+          <td>BOJ_1759</td>
+        </tr>
+        <tr>
+          <td>BOJ_14501</td>
+        </tr>
+        <tr>
+          <td>BOJ_14889</td>
+        </tr>
+        <tr>
+          <td>BOJ_2529</td>
+        </tr>
+        <tr>
+          <td>BOJ_10828</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</details>
+
+<details>
+  <summary>4회차 (24.07.26)</summary>
+  <div markdown="1">
+    <table>
+      <thead>
+        <tr>
+          <th>공통</th>
+          <th>자율</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>BOJ_1592</td>
+          <td>BOJ_2225</td>
+        </tr>
+        <tr>
+          <td>BOJ_2292</td>
+          <td>BOJ_17404</td>
+        </tr>
+        <tr>
+          <td>BOJ_2798</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>BOJ_3052</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>BOJ_8320</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</details>
+
+<details>
+  <summary>5회차 (24.07.30)</summary>
+  <div markdown="1">
+    <table>
+      <thead>
+        <tr>
+          <th>공통</th>
+          <th>자율</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>BOJ_8958</td>
+          <td>BOJ_2667</td>
+        </tr>
+        <tr>
+          <td>BOJ_13300</td>
+          <td>BOJ_11724</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>BOJ_1260</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</details>
+
+<details>
+  <summary>6회차 (24.08.02)</summary>
+  <div markdown="1">
+    <table>
+      <thead>
+        <tr>
+          <th>공통</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>BOJ_2477</td>
+        </tr>
+        <tr>
+          <td>BOJ_2309</td>
+        </tr>
+        <tr>
+          <td>BOJ_2810</td>
+        </tr>
+        <tr>
+          <td>BOJ_2851</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</details>
+
+<details>
+  <summary>7회차 (24.08.06)</summary>
+  <div markdown="1">
+    <table>
+      <thead>
+        <tr>
+          <th>공통</th>
+          <th>자율</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>BOJ_2563</td>
+          <td>BOJ_2590</td>
+        </tr>
+        <tr>
+          <td>BOJ_2567</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>BOJ_10163</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</details>
+
+<details>
+  <summary>8회차 (24.08.09)</summary>
+  <div markdown="1">
+    <table>
+      <thead>
+        <tr>
+          <th>공통</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>BOJ_2941</td>
+        </tr>
+        <tr>
+          <td>BOJ_2999</td>
+        </tr>
+        <tr>
+          <td>BOJ_3985</td>
+        </tr>
+        <tr>
+          <td>BOJ_2839</td>
+        </tr>
+        <tr>
+          <td>BOJ_17413</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</details>
+
+<details>
+  <summary>9회차 (24.08.13)</summary>
+  <div markdown="1">
+    <table>
+      <thead>
+        <tr>
+          <th>공통</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>SWEA_5356</td>
+        </tr>
+        <tr>
+          <td>SWEA_4014</td>
+        </tr>
+        <tr>
+          <td>SWEA_4615</td>
+        </tr>
+        <tr>
+          <td>BOJ_2527</td>
+        </tr>
+        <tr>
+          <td>BOJ_10158</td>
+        </tr>
+        <tr>
+          <td>BOJ_11399</td>
+        </tr>
+        <tr>
+          <td>BOJ_14696</td>
+        </tr>
+        <tr>
+          <td>BOJ_1158</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</details>
+
+<details>
+  <summary>10회차 (24.08.16)</summary>
+  <div markdown="1">
+    <table>
+      <thead>
+        <tr>
+          <th>공통</th>
+          <th>자율</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>SWEA_2115</td>
+          <td>BOJ_1260</td>
+        </tr>
+        <tr>
+          <td>SWEA_4012</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>SWEA_1952</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>SWEA_4013</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>BOJ_17471</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</details>
+
+<details>
+  <summary>10-11회차(팀 SK하이닉스) (24.08.20)</summary>
+  <div markdown="1">
+    <table>
+      <thead>
+        <tr>
+          <th>공통</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>SWEA_11315</td>
+        </tr>
+        <tr>
+          <td>SWEA_1860</td>
+        </tr>
+        <tr>
+          <td>SWEA_1940</td>
+        </tr>
+        <tr>
+          <td>SWEA_1952</td>
+        </tr>
+        <tr>
+          <td>SWEA_1974</td>
+        </tr>
+        <tr>
+          <td>SWEA_2005</td>
+        </tr>
+        <tr>
+          <td>SWEA_2115</td>
+        </tr>
+        <tr>
+          <td>SWEA_2382</td>
+        </tr>
+        <tr>
+          <td>SWEA_3499</td>
+        </tr>
+        <tr>
+          <td>SWEA_4012</td>
+        </tr>
+        <tr>
+          <td>SWEA_4013</td>
+        </tr>
+        <tr>
+          <td>SWEA_4014</td>
+        </tr>
+        <tr>
+          <td>SWEA_4615</td>
+        </tr>
+        <tr>
+          <td>SWEA_5432</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</details>
+
+<details>
+  <summary>11회차 (24.08.20)</summary>
+  <div markdown="1">
+    <table>
+      <thead>
+        <tr>
+          <th>공통</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>SWEA_5656</td>
+        </tr>
+        <tr>
+          <td>SWEA_1486</td>
+        </tr>
+        <tr>
+          <td>SWEA_2817</td>
+        </tr>
+        <tr>
+          <td>SWEA_2806</td>
+        </tr>
+        <tr>
+          <td>SWEA_6808</td>
+        </tr>
+        <tr>
+          <td>BOJ_11403</td>
+        </tr>
+        <tr>
+          <td>BOJ_2178</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</details>
+
+<details>
+  <summary>12회차 (24.08.23)</summary>
+  <div markdown="1">
+    <table>
+      <thead>
+        <tr>
+          <th>공통</th>
+          <th>자율</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>BOJ_24479</td>
+          <td>13023</td>
+        </tr>
+        <tr>
+          <td>BOJ_24444</td>
+          <td>13549</td>
+        </tr>
+        <tr>
+          <td>BOJ_1260</td>
+          <td>13913</td>
+        </tr>
+        <tr>
+          <td>BOJ_11403</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>BOJ_2178</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</details>
+
+<details>
+  <summary>12회차 (24.08.27)</summary>
+  <div markdown="1">
+    <table>
+      <thead>
+        <tr>
+          <th>공통</th>
+          <th>자율</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>BOJ_11403</td>
+          <td>DFS-BFS 문제 복습</td>
+        </tr>
+        <tr>
+          <td>BOJ_2178</td>
+          <td>과목평가</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>월말평가 대비</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</details>
+
+<details>
+  <summary>13회차 (24.08.30)</summary>
+  <div markdown="1">
+    <table>
+      <thead>
+        <tr>
+          <th>공통</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>SWEA_1953</td>
+        </tr>
+        <tr>
+          <td>BOJ_12865</td>
+        </tr>
+        <tr>
+          <td>BOJ_11404</td>
+        </tr>
+        <tr>
+          <td>BOJ_1753</td>
+        </tr>
+        <tr>
+          <td>BOJ_11053</td>
+        </tr>
+        <tr>
+          <td>BOJ_17144</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</details>
+
+<details>
+  <summary>14회차 (24.09.03)</summary>
+  <div markdown="1">
+    <table>
+      <thead>
+        <tr>
+          <th>공통</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>SWEA_2383</td>
+        </tr>
+        <tr>
+          <td>SWEA_7733</td>
+        </tr>
+        <tr>
+          <td>SWEA_1952</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</details>
+
+<details>
+  <summary>15회차 (24.09.06)</summary>
+  <div markdown="1">
+    <table>
+      <thead>
+        <tr>
+          <th>공통</th>
+          <th>자율</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>SWEA_1244</td>
+          <td>BOJ_9252</td>
+        </tr>
+        <tr>
+          <td>SWEA_3234</td>
+          <td>BOJ_11049</td>
+        </tr>
+        <tr>
+          <td>SWEA_1494</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>BOJ_9251</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</details>
+
+</details>
+
+<br>
+
 
 |차수|날짜|SWEA|BOJ|자율|
 |:----:|:----:|:----:|:----:|:----:|
