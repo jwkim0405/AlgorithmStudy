@@ -100,7 +100,7 @@
       </thead>
       <tbody>
         <tr>
-          <td>[BOJ_1244_스위치 켜고 끄기](https://www.acmicpc.net/problem/1244)</td>
+          <td>\[BOJ_1244_스위치 켜고 끄기\]\(https://www.acmicpc.net/problem/1244\)</td>
         </tr>
         <tr>
           <td>[BOJ_1759_암호만들기](https://www.acmicpc.net/problem/1759)</td>
