@@ -451,8 +451,8 @@
       </thead>
       <tbody>
         <tr>
-          <td>BOJ_24479_알고리즘</td>
-          <td>13023_친구</td>
+          <td><a href="https://www.acmicpc.net/problem/24479">BOJ_24479_알고리즘</a></td>
+          <td><a href="https://www.acmicpc.net/problem/13023">13023_친구</a></td>
         </tr>
         <tr>
           <td><a href="https://www.acmicpc.net/problem/24444">BOJ_24444_너비우선탐색1</a></td>
