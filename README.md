@@ -448,7 +448,7 @@
           <th>공통</th>
           <th>자율</th>
         </tr>
-      </thead>
+    </thead>
       <tbody>
         <tr>
           <td><a href="https://www.acmicpc.net/problem/24479">BOJ_24479_알고리즘</a></td>
@@ -456,11 +456,11 @@
         </tr>
         <tr>
           <td><a href="https://www.acmicpc.net/problem/24444">BOJ_24444_너비우선탐색1</a></td>
-          <td>13549_숨바꼭질</td>
+          <td><a href="https://www.acmicpc.net/problem/13549">13549_숨바꼭질</a></td>
         </tr>
         <tr>
           <td><a href="https://www.acmicpc.net/problem/1260">BOJ_1260_DFS와BFS</a></td>
-          <td>13913_숨바꼭질4</td>
+          <td><a href="https://www.acmicpc.net/problem/13913">13913_숨바꼭질4</a></td>
         </tr>
         <tr>
           <td><a href="https://www.acmicpc.net/problem/11403">BOJ_11403_경로찾기</a></td>
@@ -480,11 +480,6 @@
   <div markdown="1">
     <table>
       <thead>
-        <tr>
-          <th>공통</th>
-          <th>자율</th>
-        </tr>
-      </thead>
       <tbody>
         <tr>
           <td><a href="https://www.acmicpc.net/problem/11403">BOJ_11403_경로찾기</a></td>
