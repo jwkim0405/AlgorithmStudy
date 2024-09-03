@@ -18,6 +18,11 @@
 
 <br>
 
+## 📘 Live Lecture PDF 📘
+<a href="https://drive.google.com/drive/folders/1--VNQrn6colkf8wJH0dox5cQhGLUNUSR?usp=drive_link">Live Lecture PDF(Google Drive)</a>
+
+<br>
+
 ## 🗂️ Problem of the Date 🗂️
 
 <details>
