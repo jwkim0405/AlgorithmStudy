@@ -1,88 +1,61 @@
-// 한 달 전의 코드와의 차이: 기저 부분과 재귀 부분을 잘 나누었음! 코드 비교가 되네~
-// 시간 되면 dp로 한 번 풀어보기!
+package PT_0903;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class Solution {
-    static int N; // 치즈 한 변의 길이
-    static int[][] cheese; // 치즈 위치별 맛 저장 배열
-    static boolean[][] visited; // 덩어리 파악용 방문 배열
-    static int max; // 가장 높은 맛 점수
-    static int result; // 덩어리 최대 개수
-    static int cnt; // 덩어리 개수
-
-    // 델타탐색(상 하 좌 우)
-    static int[] dr = {-1, 1, 0, 0};
-    static int[] dc = {0, 0, -1, 1};
-
+public class swea_1952_수영장 {
+    static int d, m, q, y; // d: day권, m: month 권, q: quarter권, y: year권
+    static int[] pool; // 월별 수영장 이용 횟수 * 일일권 가격
+    static int min; // 1년 이용 가격 최소값
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         int T = sc.nextInt();
 
         for (int t = 1; t <= T; t++) {
-            N = sc.nextInt();
-            cheese = new int[N][N];
-            visited = new boolean[N][N];
-            max = 0;
+            // 이용권 가격 설정
+            d = sc.nextInt();
+            m = sc.nextInt();
+            q = sc.nextInt();
+            y = sc.nextInt();
 
-            // 배열에 위치별 맛 점수 저장
-            for (int i = 0; i < N; i++) {
-                for (int j = 0; j < N; j++) {
-                    int yummy = sc.nextInt(); // 각 위치별 맛 점수
-                    cheese[i][j] = yummy;
-                    max = Math.max(max, yummy); // 가장 높은 맛 점수 갱신
-                }
+            min = Integer.MAX_VALUE;
+            pool = new int[13]; // 1 ~ 12월 이용 횟수
+
+            // 월별 이용 횟수 입력받고 월별 이용횟수와 곱해주기
+            for (int i = 1; i <= 12; i++) {
+                pool[i] = sc.nextInt() * d; // 일일권 가격 * 월별 이용 횟수
             }
 
-            result = 1;
-            // N일 == 맛 점수 N => 0으로 처리
-            for (int i = 1; i <= max; i++) {
-                for (int p = 0; p < N; p++) {
-                    for (int q = 0; q < N; q++) {
-                        if (cheese[p][q] == i) cheese[p][q] = 0;
-                    }
-                }
+            find_min(0, 0);
+            min = Math.min(min, y); // 1년권과 최소값 비교
 
-                // 덩어리 개수 파악 -> dfs
-                cnt = 0;
-                for (int p = 0; p < N; p++) {
-                    for (int q = 0; q < N; q++) {
-//                        System.out.println(p + " " + q + " " + visited[p][q] + " " + cheese[p][q]);
-                        // 방문 안 했고, cheese값이 0이 아닌 경우 탐색!
-                        if(!visited[p][q] && cheese[p][q] > 0) {
-//                            System.out.println("** " + p + " " + q);
-                            dfs(p, q);
-                            cnt++;
-                        }
-                    }
-                }
+            System.out.println("#" + t + " " + min);
+        }
+    }
 
-                // 덩어리 개수 최대 비교
-                result = Math.max(result, cnt);
+    static void find_min(int month, int sum) {
+        // 기저 조건 1
+        // 최소값보다 크다면, 중간에 return해라.
+        if (sum > min || month > 12)
+            return;
 
-                // 방문 배열 초기화
-                for (int j = 0; j < N; j++) {
-                    Arrays.fill(visited[j], false);
-                }
-            } // for i
-
-            System.out.println("#" + t + " " + result);
-        } // tc
-    } // main
-
-    static void dfs(int r, int c) {
-        visited[r][c] = true;
-        // 상하좌우 델타탐색
-        for (int i = 0; i < 4; i++) {
-            int nr = r + dr[i];
-            int nc = c + dc[i];
-
-            // 인덱스 범위 내에 속함 + 방문 안 함! + 갈 수 있음!
-            if (nr >= 0 && nr < N && nc >= 0 && nc < N && !visited[nr][nc] && cheese[nr][nc] > 0) {
-                dfs(nr, nc);
-            }
+        // 12월까지 다 봤다면, return
+        if (month == 12) {
+            if (min > sum) min = sum;
+            return;
         }
 
+        // 재귀 부분
+        // find_min(1, sum + pool[1]) : 1월까지 이용한 합
+        // day
+        find_min(month+1, sum + pool[month+1]);
+
+        // month
+        find_min(month+1, sum + m); // 1달권 더하기
+
+        // quarter
+        find_min(month+3, sum + q); // 3달권 더하기
+
+        // year는 main method 내에서 마지막에 1번 비교
     }
 }
