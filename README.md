@@ -19,7 +19,7 @@
 <br>
 
 ## 🔗 Useful Links 🔗
-📘 <a href="https://drive.google.com/drive/folders/1--VNQrn6colkf8wJH0dox5cQhGLUNUSR?usp=drive_link">Live Lecture PDF(Google Drive)</a>
+📘 <a href="https://drive.google.com/drive/folders/1--VNQrn6colkf8wJH0dox5cQhGLUNUSR?usp=drive_link">라이브 강의 PDF(Google Drive)</a>
 <br>
 🤖 <a href="https://docs.google.com/spreadsheets/d/1wTtYaj5zcX8HcA13EOGzjzlRpNM6cs9mKPeiilu_jao/edit?usp=sharing">AI News 요약본</a>
 <br>
