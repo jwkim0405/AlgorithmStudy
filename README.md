@@ -23,6 +23,12 @@
 
 <br>
 
+## 🤖 AI News 📰
+<a href="https://docs.google.com/spreadsheets/d/1wTtYaj5zcX8HcA13EOGzjzlRpNM6cs9mKPeiilu_jao/edit?usp=sharing">AI News 요약본</a>
+
+<br>
+
+
 ## 🗂️ Problem of the Date 🗂️
 
 <details>
