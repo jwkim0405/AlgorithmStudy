@@ -20,8 +20,9 @@
 
 ## 🔗 Useful Links 🔗
 📘 <a href="https://drive.google.com/drive/folders/1--VNQrn6colkf8wJH0dox5cQhGLUNUSR?usp=drive_link">라이브 강의 PDF(Google Drive)</a>
-<br>
+
 🤖 <a href="https://docs.google.com/spreadsheets/d/1wTtYaj5zcX8HcA13EOGzjzlRpNM6cs9mKPeiilu_jao/edit?usp=sharing">AI News 요약본</a>
+
 <br>
 
 ## 🗂️ Problem Archive 🗂️
@@ -187,9 +188,6 @@
         <strong>공통</strong>
         <ul>
           <li><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRQm6qfL0DFAUo">SWEA_5656_벽돌깨기</a></li>
-        </ul>
-        <strong>자율</strong>
-        <ul>
           <li><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV2b7Yf6ABcBBASw">SWEA_1486_장훈이의높은선반</a></li>
           <li><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7IzvG6EksDFAXB">SWEA_2817_부분수열의합</a></li>
           <li><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7GKs06AU0DFAXB">SWEA_2806_NQueen</a></li>
