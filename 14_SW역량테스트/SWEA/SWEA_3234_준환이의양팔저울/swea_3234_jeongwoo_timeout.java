@@ -1,6 +1,10 @@
 import java.util.LinkedList;
 import java.util.Scanner;
 
+// 조합으로 순서 나누고
+// +- 계산하면서 cnt++
+// 문제점: find_result 메서드에서 right가 더 크면 종료하는 것을 break 혹은 continue를 써야 하는데
+// return을 쓴 것이 문제! 디버깅에 많은 시간 소요
 
 public class Solution {
     static int[] weight;
