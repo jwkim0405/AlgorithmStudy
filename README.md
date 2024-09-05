@@ -251,7 +251,7 @@
         <ul>
           <li><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV2b_WPaAEIBBASw">SWEA_1494_사랑의카운슬러</a></li>
           <li><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWAe7XSKfUUDFAUw">SWEA_3234_준환이의 양팔저울</a></li>
-          <li><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5QQhbqA4QDFAUq">SWEA_2068_최대수 구하기</a></li>
+          <li><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15Khn6AN0CFAYD">SWEA_1244_최대상금</a></li>
           <li><a href="https://www.acmicpc.net/problem/9251">BOJ_9251_LCS</a></li>
         </ul>
         <strong>자율</strong>
