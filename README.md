@@ -23,6 +23,7 @@
 
 🤖 <a href="https://docs.google.com/spreadsheets/d/1wTtYaj5zcX8HcA13EOGzjzlRpNM6cs9mKPeiilu_jao/edit?usp=sharing">AI News 요약본</a>
 
+🗳️ <a href ="https://drive.google.com/drive/folders/1p78wxSTBlcDKu0y_nwidDrni0hXdy9Y7?usp=drive_link"> Study Cloud (알고리즘, 취업 관련 자료) </a>
 <br>
 
 ## 🗂️ Problem Archive 🗂️
