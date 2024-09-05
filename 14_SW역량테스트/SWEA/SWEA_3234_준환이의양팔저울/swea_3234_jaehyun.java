@@ -5,48 +5,54 @@ class Solution
     public static void main(String args[]) throws Exception
     {
         Scanner sc = new Scanner(System.in);
-        int T = sc.nextInt();  // 테스트 케이스의 수
+        int T = sc.nextInt();  // Number of test cases
         
         for (int test_case = 1; test_case <= T; test_case++)
         {
-            int N = sc.nextInt();  // 무게추의 개수
-            int[] weights = new int[N];  // 무게추 배열
+            int N = sc.nextInt();  // Number of weights
+            int[] weights = new int[N];  // Array to store weights
             
-            // 무게추 입력
+            // Input the weights
             for (int i = 0; i < N; i++) {
                 weights[i] = sc.nextInt();
             }
             
-            // 경우의 수 계산
+            // Calculate valid ways and print the result
             int result = countValidWays(N, weights);
-            
-            // 결과 출력
-            System.out.println("#" + test_case + " " + result);
+            System.out.println("#" + test_case + " " + result);  // Output result for each test case
         }
     }
     
-    // 재귀적인 백트래킹 방식으로 경우의 수를 구하는 함수
+    // Function to start the backtracking process
     public static int countValidWays(int N, int[] weights) {
-        return backtrack(0, 0, 0, N, weights);
+        return backtrack(0, 0, 0, N, weights, new boolean[N]);  // Backtracking with initial sums and unused weights
     }
     
-    // 백트래킹 함수: index는 현재 무게추를 가리키고, leftSum과 rightSum은 현재 왼쪽, 오른쪽에 놓인 무게 합
-    public static int backtrack(int index, int leftSum, int rightSum, int N, int[] weights) {
+    // Backtracking function to explore possible ways to place weights
+    public static int backtrack(int index, int leftSum, int rightSum, int N, int[] weights, boolean[] used) {
         if (index == N) {
-            // 모든 무게추를 놓았으면 경우의 수 1 증가
-            return 1;
+            return 1;  // If all weights are placed, count this as a valid configuration
         }
         
         int count = 0;
         
-        // 현재 무게추를 왼쪽에 놓기
-        count += backtrack(index + 1, leftSum + weights[index], rightSum, N, weights);
-        
-        // 현재 무게추를 오른쪽에 놓을 수 있는 경우에만 놓기 (오른쪽의 무게 합이 왼쪽을 넘지 않도록)
-        if (rightSum + weights[index] <= leftSum) {
-            count += backtrack(index + 1, leftSum, rightSum + weights[index], N, weights);
+        // Try to place each unused weight
+        for (int i = 0; i < N; i++) {
+            if (!used[i]) {  // Check if the weight is not yet placed
+                used[i] = true;  // Mark the weight as used
+                
+                // Place the current weight on the left
+                count += backtrack(index + 1, leftSum + weights[i], rightSum, N, weights, used);
+                
+                // Place on the right only if it doesn't exceed left sum
+                if (rightSum + weights[i] <= leftSum) {
+                    count += backtrack(index + 1, leftSum, rightSum + weights[i], N, weights, used);
+                }
+                
+                used[i] = false;  // Backtrack (unmark the weight)
+            }
         }
         
-        return count;
+        return count;  // Return the total count of valid configurations
     }
 }
