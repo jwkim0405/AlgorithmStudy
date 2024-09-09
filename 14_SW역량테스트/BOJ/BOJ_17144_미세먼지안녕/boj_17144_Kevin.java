@@ -1,97 +1,160 @@
 import java.util.Scanner;
 
 public class Main {
-    static int R, C, T; // 방의 크기 R(행), C(열), 시뮬레이션 시간 T
-    static int[][] map; // 방의 상태를 나타내는 2차원 배열
-    static int cleanerTop, cleanerBottom; // 공기청정기의 위쪽과 아래쪽 위치
+    // 방의 크기 R(행)과 C(열), 그리고 진행 시간 T
+    static int R, C, T;
+    
+    // 방의 상태를 저장하는 2차원 배열
+    // room[i][j]는 i행 j열의 미세먼지 양을 의미함
+    static int[][] room;
+    
+    // 공기청정기의 위치를 저장하는 배열 (두 행의 위치)
+    static int[] purifier = new int[2];
 
     public static void main(String[] args) {
+        // 입력을 받기 위한 Scanner 객체 생성
         Scanner sc = new Scanner(System.in);
 
-        R = sc.nextInt(); // 행의 수
-        C = sc.nextInt(); // 열의 수
-        T = sc.nextInt(); // 시뮬레이션 시간
+        // 방의 크기 R (행)과 C (열), 그리고 T (초) 입력 받기
+        R = sc.nextInt();
+        C = sc.nextInt();
+        T = sc.nextInt();
 
-        map = new int[R][C];
+        // 방의 상태를 저장할 room 배열 초기화
+        room = new int[R][C];
+        
+        // 공기청정기의 위치를 저장하기 위한 인덱스 (공기청정기는 항상 두 줄에 걸쳐있음)
+        int purifierIdx = 0;
+
+        // 방의 상태를 입력받음
         for (int i = 0; i < R; i++) {
             for (int j = 0; j < C; j++) {
-                map[i][j] = sc.nextInt();
-                // 공기청정기의 위치 저장
-                if (map[i][j] == -1) {
-                    if (cleanerTop == 0) cleanerTop = i; // 위쪽 공기청정기 위치
-                    cleanerBottom = i; // 아래쪽 공기청정기 위치
+                room[i][j] = sc.nextInt();
+                
+                // 공기청정기가 있는 위치는 -1로 표시됨
+                if (room[i][j] == -1) {
+                    purifier[purifierIdx++] = i;  // 공기청정기 위치 저장
                 }
             }
         }
 
-        // T초 동안 시뮬레이션 반복
+        // T초 동안 확산과 공기청정기 작동 반복
         for (int t = 0; t < T; t++) {
-            spread(); // 미세먼지 확산
-            runCleaner(); // 공기청정기 작동
+            spread();  // 미세먼지 확산
+            purify();  // 공기청정기 작동
         }
 
-        // 남아있는 미세먼지의 양 계산
-        int result = 0;
+        // 남아있는 미세먼지의 총량 계산
+        int totalDust = 0;
         for (int i = 0; i < R; i++) {
             for (int j = 0; j < C; j++) {
-                if (map[i][j] > 0) result += map[i][j]; // 미세먼지의 양이 양수인 경우만 합산
+                // 공기청정기(-1) 칸은 제외하고 미세먼지 양을 더함
+                if (room[i][j] > 0) {
+                    totalDust += room[i][j];
+                }
             }
         }
 
-        // 결과 출력
-        System.out.println(result);
+        // 최종 미세먼지 양 출력
+        System.out.println(totalDust);
+        sc.close();
     }
 
-    // 미세먼지 확산을 처리하는 메소드
+    // 미세먼지 확산 함수
     static void spread() {
-        int[][] tempMap = new int[R][C]; // 확산된 결과를 임시로 저장할 배열
-        int[] dx = { -1, 1, 0, 0 }; // 이동할 방향 (상, 하, 좌, 우)
-        int[] dy = { 0, 0, -1, 1 };
+        // 확산 후의 상태를 저장할 새로운 방 상태 배열
+        int[][] newRoom = new int[R][C];
 
+        // 공기청정기 위치는 확산 후에도 그대로 유지되므로 복사
+        newRoom[purifier[0]][0] = -1;
+        newRoom[purifier[1]][0] = -1;
+
+        // 네 방향(상, 하, 좌, 우)으로의 이동을 나타내는 배열
+        int[] dx = { -1, 1, 0, 0 };  // 상, 하
+        int[] dy = { 0, 0, -1, 1 };  // 좌, 우
+
+        // 방의 모든 칸을 순회하며 미세먼지 확산 처리
         for (int i = 0; i < R; i++) {
             for (int j = 0; j < C; j++) {
-                if (map[i][j] > 0) { // 미세먼지가 있는 경우
-                    int spreadAmount = map[i][j] / 5; // 확산될 미세먼지의 양 (소수점 버림)
-                    int spreadCount = 0; // 실제로 확산된 방향의 수
+                // 미세먼지가 있는 칸만 처리
+                if (room[i][j] > 0) {
+                    // 확산될 미세먼지 양 (5로 나눈 값, 소수점 이하 버림)
+                    int dust = room[i][j] / 5;
+                    int spreadCount = 0;  // 확산된 방향의 개수를 셈
 
-                    // 4방향으로 확산 시도
+                    // 네 방향으로 확산 시도
                     for (int d = 0; d < 4; d++) {
-                        int nx = i + dx[d];
-                        int ny = j + dy[d];
+                        int nx = i + dx[d];  // 새로운 행 좌표
+                        int ny = j + dy[d];  // 새로운 열 좌표
 
-                        // 맵을 벗어나지 않고 공기청정기가 아닌 경우에만 확산
-                        if (nx >= 0 && ny >= 0 && nx < R && ny < C && map[nx][ny] != -1) {
-                            tempMap[nx][ny] += spreadAmount;
-                            spreadCount++;
+                        // 확산할 수 있는 경우 (범위를 벗어나지 않고 공기청정기가 없는 경우)
+                        if (nx >= 0 && nx < R && ny >= 0 && ny < C && room[nx][ny] != -1) {
+                            newRoom[nx][ny] += dust;  // 확산된 미세먼지를 더해줌
+                            spreadCount++;  // 확산된 방향 수 증가
                         }
                     }
-
-                    // 확산된 후 남은 미세먼지를 현재 위치에 더함
-                    tempMap[i][j] += map[i][j] - spreadAmount * spreadCount;
+                    // 현재 칸에 남아있는 미세먼지 양 갱신 (확산된 만큼 뺌)
+                    newRoom[i][j] += room[i][j] - dust * spreadCount;
                 }
             }
         }
 
-        // 원래 맵을 임시 맵으로 갱신
-        for (int i = 0; i < R; i++) {
-            System.arraycopy(tempMap[i], 0, map[i], 0, C);
-        }
+        // 확산 후의 방 상태로 기존 방 상태를 갱신
+        room = newRoom;
     }
 
-    // 공기청정기를 작동시키는 메소드
-    static void runCleaner() {
-        // 위쪽 공기청정기 작동 (반시계 방향)
-        for (int i = cleanerTop - 1; i > 0; i--) map[i][0] = map[i - 1][0]; // 왼쪽 세로줄 위로 이동
-        for (int i = 0; i < C - 1; i++) map[0][i] = map[0][i + 1]; // 위쪽 가로줄 왼쪽으로 이동
-        for (int i = 0; i < cleanerTop; i++) map[i][C - 1] = map[i + 1][C - 1]; // 오른쪽 세로줄 아래로 이동
-        for (int i = C - 1; i > 1; i--) map[cleanerTop][i] = map[cleanerTop][i - 1]; // 아래쪽 가로줄 오른쪽으로 이동
-        map[cleanerTop][1] = 0; // 공기청정기에서 나오는 공기
+    // 공기청정기 작동 함수
+    static void purify() {
+        // 공기청정기 위쪽 부분 작동 (반시계방향 순환)
+        int top = purifier[0];
 
-        // 아래쪽 공기청정기 작동 (시계 방향)
-        for (int i = cleanerBottom + 1; i < R - 1; i++) map[i][0] = map[i + 1][0]; // 왼쪽 세로줄 아래로 이동
-        for (int i = 0; i < C - 1; i++) map[R - 1][i] = map[R - 1][i + 1]; // 아래쪽 가로줄 왼쪽으로 이동
-        for (int i = R - 1; i > cleanerBottom; i--) map[i][C - 1] = map[i - 1][C - 1]; // 오른쪽 세로줄 위로 이동
-        for (int i = C - 1; i > 1; i--) map[cleanerBottom][i] = map[cleanerBottom][i - 1]; // 위쪽 가로줄 오른쪽으로 이동
-        map[cleanerBottom][1] = 0; // 공기청정기에서 나오는 공기
+        // 1. 첫 번째 열에서 위쪽으로 이동
+        for (int i = top - 1; i > 0; i--) {
+            room[i][0] = room[i - 1][0];
+        }
+
+        // 2. 맨 윗 행에서 왼쪽에서 오른쪽으로 이동
+        for (int i = 0; i < C - 1; i++) {
+            room[0][i] = room[0][i + 1];
+        }
+
+        // 3. 마지막 열에서 아래쪽으로 이동
+        for (int i = 0; i < top; i++) {
+            room[i][C - 1] = room[i + 1][C - 1];
+        }
+
+        // 4. 공기청정기 바로 위쪽 행에서 오른쪽에서 왼쪽으로 이동
+        for (int i = C - 1; i > 1; i--) {
+            room[top][i] = room[top][i - 1];
+        }
+
+        // 공기청정기에서 나오는 바람은 미세먼지를 제거하므로 공기청정기 바로 옆 칸은 0
+        room[top][1] = 0;
+
+        // 공기청정기 아래쪽 부분 작동 (시계방향 순환)
+        int bottom = purifier[1];
+
+        // 1. 첫 번째 열에서 아래쪽으로 이동
+        for (int i = bottom + 1; i < R - 1; i++) {
+            room[i][0] = room[i + 1][0];
+        }
+
+        // 2. 맨 아래 행에서 왼쪽에서 오른쪽으로 이동
+        for (int i = 0; i < C - 1; i++) {
+            room[R - 1][i] = room[R - 1][i + 1];
+        }
+
+        // 3. 마지막 열에서 위쪽으로 이동
+        for (int i = R - 1; i > bottom; i--) {
+            room[i][C - 1] = room[i - 1][C - 1];
+        }
+
+        // 4. 공기청정기 바로 아래쪽 행에서 오른쪽에서 왼쪽으로 이동
+        for (int i = C - 1; i > 1; i--) {
+            room[bottom][i] = room[bottom][i - 1];
+        }
+
+        // 공기청정기에서 나오는 바람은 미세먼지를 제거하므로 공기청정기 바로 옆 칸은 0
+        room[bottom][1] = 0;
     }
 }
