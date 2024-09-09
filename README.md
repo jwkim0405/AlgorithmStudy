@@ -13,10 +13,32 @@
 </table><br/>
 
 ## 🔥 Study Time 🔥
-- Every Tue     07:50 ~ 08:50
-- Every Fri     07:50 ~ 08:50
+- Every Tue    07:50 ~ 08:50
+- Every Fri    07:50 ~ 08:50
 
 <br>
+
+## 📣 Study Rule 📣
+
+- 7시 50분 59초까지 출석 ⭕️
+- 7시 51분 00초부터는 지각 ❗️
+- 벌금은 2,000￦부터! 다음 벌금은 이전 벌금의 ✕ 2 🚨
+- 스터디 시작하기 전에 `pull request`하고 오기 📮
+- 발표자 미리 정해오기🙋‍♂️🙋‍♀️
+  - 화: 홍균, 정우, 혜민
+  - 금: 재현, 유영, 희주
+
+
+<br>
+
+## 🌱 벌금 sheet 🌱
+
+💸 <a href="https://docs.google.com/spreadsheets/d/1M25pfYZXrR03PYGUnrDNMSFSNKln_zmEE0-LgOYIv4w/edit?gid=1243391184#gid=1243391184">벌금 Link</a>
+
+
+
+<br>
+
 
 ## 🔗 Useful Links 🔗
 📘 <a href="https://drive.google.com/drive/folders/1--VNQrn6colkf8wJH0dox5cQhGLUNUSR?usp=drive_link">라이브 강의 PDF(Google Drive)</a>
@@ -24,6 +46,8 @@
 🤖 <a href="https://docs.google.com/spreadsheets/d/1wTtYaj5zcX8HcA13EOGzjzlRpNM6cs9mKPeiilu_jao/edit?usp=sharing">AI News 요약본</a>
 
 🗳️ <a href ="https://drive.google.com/drive/folders/1p78wxSTBlcDKu0y_nwidDrni0hXdy9Y7?usp=drive_link"> Study Cloud (알고리즘, 취업 관련 자료) </a>
+<br>
+
 <br>
 
 ## 🗂️ Problem Archive 🗂️
@@ -263,16 +287,12 @@
     </td>
     <td valign="top">
       <details>
-        <summary><strong>회차번호 (YYYY.MM.DD)</strong></summary>
+        <summary><strong>16회차 (2024.09.10)</strong></summary>
         <strong>공통</strong>
         <ul>
-          <li><a href="문제링크">문제_이름</a></li>
-          <!-- 추가할 문제가 있으면 여기에 추가 -->
-        </ul>
-        <strong>자율</strong>
-        <ul>
-          <li><a href="문제링크">문제_이름</a></li>
-          <!-- 추가할 문제가 있으면 여기에 추가 -->
+          <li><a href="https://www.acmicpc.net/problem/17144">BOJ_17144_미세먼지안녕!</a></li>
+          <li><a href="https://www.acmicpc.net/problem/14890">BOJ_14890_경사로</a></li>
+           <li><a href="https://www.acmicpc.net/problem/17471">BOJ_17471_게리맨더링</a></li>
         </ul>
       </details>
     </td>
@@ -345,18 +365,5 @@
 
 <br>
 
-## 📣 Study Rule 📣
-
-- 7시 50분 59초까지 출석 ⭕️
-- 7시 51분 00초부터는 지각 ❗️
-- 벌금은 2,000￦부터! 다음 벌금은 이전 벌금의 ✕ 2 🚨
-- 스터디 시작하기 전에 `pull request`하고 오기 📮
-
-
-<br>
-
-## 🌱 벌금 && 문제 google sheet 🌱
-
-* [벌금&문제 Link](https://docs.google.com/spreadsheets/d/1M25pfYZXrR03PYGUnrDNMSFSNKln_zmEE0-LgOYIv4w/edit?gid=1243391184#gid=1243391184)
 
 
