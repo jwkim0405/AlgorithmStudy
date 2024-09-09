@@ -300,7 +300,7 @@
   <tr>
   <td valign="top">
     <details>
-      <summary><strong>회차번호 (YYYY.MM.DD)</strong></summary>
+      <summary><strong>17회차 (2024.09.13)</strong></summary>
       <ul>
           <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/42583">PRGMS_42583_다리를지나는트럭</a></li>
           <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/81302">PRGMS_81302_거리두기확인하기</a></li>
