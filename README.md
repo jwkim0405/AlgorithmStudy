@@ -309,16 +309,11 @@
   </td>
   <td valign="top">
     <details>
-      <summary><strong>회차번호 (YYYY.MM.DD)</strong></summary>
+      <summary><strong>18회차 (2024.09.17)</strong></summary>
       <strong>공통</strong>
       <ul>
-        <li><a href="문제링크">문제_이름</a></li>
-        <!-- 추가할 문제가 있으면 여기에 추가 -->
-      </ul>
-      <strong>자율</strong>
-      <ul>
-        <li><a href="문제링크">문제_이름</a></li>
-        <!-- 추가할 문제가 있으면 여기에 추가 -->
+        <li><a href="https://www.acmicpc.net/problem/1253">BOJ_1253_좋다</a></li>
+        <li><a href="https://www.acmicpc.net/problem/3079">BOJ_3079_입국심사</a></li>
       </ul>
     </details>
   </td>
