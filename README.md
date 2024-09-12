@@ -33,7 +33,7 @@
 
 ## 🌱 벌금 sheet 🌱
 
-💸 <a href="https://docs.google.com/spreadsheets/d/1M25pfYZXrR03PYGUnrDNMSFSNKln_zmEE0-LgOYIv4w/edit?gid=1243391184#gid=1243391184">벌금 Link</a>
+💸 <a href="https://docs.google.com/spreadsheets/d/1M25pfYZXrR03PYGUnrDNMSFSNKln_zmEE0-LgOYIv4w/edit?gid=0#gid=0">벌금 Link</a>
 
 
 
