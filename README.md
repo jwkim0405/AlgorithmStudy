@@ -319,17 +319,11 @@
   </td>
   <td valign="top">
     <details>
-      <summary><strong>회차번호 (YYYY.MM.DD)</strong></summary>
+      <summary><strong>19회차 (2024.09.24)</strong></summary>
       <strong>공통</strong>
       <ul>
-        <li><a href="문제링크">문제_이름</a></li>
-        <!-- 추가할 문제가 있으면 여기에 추가 -->
-      </ul>
-      <strong>자율</strong>
-      <ul>
-        <li><a href="문제링크">문제_이름</a></li>
-        <!-- 추가할 문제가 있으면 여기에 추가 -->
-      </ul>
+        <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/340199">PRGRMS_340199_지폐접기</a></li>
+        <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/340198">PRGRMS_340198_공원</a></li>
     </details>
   </td>
   <td valign="top">
