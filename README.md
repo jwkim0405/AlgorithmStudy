@@ -33,7 +33,7 @@
 
 ## 🌱 벌금 sheet 🌱
 
-💸 <a href="https://docs.google.com/spreadsheets/d/1M25pfYZXrR03PYGUnrDNMSFSNKln_zmEE0-LgOYIv4w/edit?gid=1243391184#gid=1243391184">벌금 Link</a>
+💸 <a href="https://docs.google.com/spreadsheets/d/1M25pfYZXrR03PYGUnrDNMSFSNKln_zmEE0-LgOYIv4w/edit?gid=0#gid=0">벌금 Link</a>
 
 
 
@@ -287,7 +287,7 @@
     </td>
     <td valign="top">
       <details>
-        <summary><strong>16회차 (2024.09.10)</strong></summary>
+        <summary><strong>16회차 (24.09.10)</strong></summary>
         <strong>공통</strong>
         <ul>
           <li><a href="https://www.acmicpc.net/problem/17144">BOJ_17144_미세먼지안녕!</a></li>
@@ -300,7 +300,7 @@
   <tr>
   <td valign="top">
     <details>
-      <summary><strong>17회차 (2024.09.13)</strong></summary>
+      <summary><strong>17회차 (24.09.13)</strong></summary>
       <ul>
           <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/42583">PRGMS_42583_다리를지나는트럭</a></li>
           <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/81302">PRGMS_81302_거리두기확인하기</a></li>
@@ -309,7 +309,7 @@
   </td>
   <td valign="top">
     <details>
-      <summary><strong>18회차 (2024.09.17)</strong></summary>
+      <summary><strong>18회차 (24.09.17)</strong></summary>
       <strong>공통</strong>
       <ul>
         <li><a href="https://www.acmicpc.net/problem/1253">BOJ_1253_좋다</a></li>
@@ -319,31 +319,20 @@
   </td>
   <td valign="top">
     <details>
-      <summary><strong>회차번호 (YYYY.MM.DD)</strong></summary>
+      <summary><strong>19회차 (24.09.24)</strong></summary>
       <strong>공통</strong>
       <ul>
-        <li><a href="문제링크">문제_이름</a></li>
-        <!-- 추가할 문제가 있으면 여기에 추가 -->
-      </ul>
-      <strong>자율</strong>
-      <ul>
-        <li><a href="문제링크">문제_이름</a></li>
-        <!-- 추가할 문제가 있으면 여기에 추가 -->
-      </ul>
+        <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/340199">PRGRMS_340199_지폐접기</a></li>
+        <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/340198">PRGRMS_340198_공원</a></li>
     </details>
   </td>
   <td valign="top">
     <details>
-      <summary><strong>회차번호 (YYYY.MM.DD)</strong></summary>
+      <summary><strong>20회차 (24.09.27)</strong></summary>
       <strong>공통</strong>
       <ul>
-        <li><a href="문제링크">문제_이름</a></li>
-        <!-- 추가할 문제가 있으면 여기에 추가 -->
-      </ul>
-      <strong>자율</strong>
-      <ul>
-        <li><a href="문제링크">문제_이름</a></li>
-        <!-- 추가할 문제가 있으면 여기에 추가 -->
+        <li><a href="https://www.acmicpc.net/problem/1197">BOJ_1197_최소스패닝트리</a></li>
+        <li><a href="https://www.acmicpc.net/problem/2252">BOJ_2252_줄세우기</a></li>
       </ul>
     </details>
   </td>
@@ -351,7 +340,7 @@
 <tr>
   <td valign="top">
     <details>
-      <summary><strong>회차번호 (YYYY.MM.DD)</strong></summary>
+      <summary><strong>회차번호 (YY.MM.DD)</strong></summary>
       <strong>공통</strong>
       <ul>
         <li><a href="문제링크">문제_이름</a></li>
@@ -366,7 +355,7 @@
   </td>
   <td valign="top">
     <details>
-      <summary><strong>회차번호 (YYYY.MM.DD)</strong></summary>
+      <summary><strong>회차번호 (YY.MM.DD)</strong></summary>
       <strong>공통</strong>
       <ul>
         <li><a href="문제링크">문제_이름</a></li>
@@ -381,7 +370,7 @@
   </td>
   <td valign="top">
     <details>
-      <summary><strong>회차번호 (YYYY.MM.DD)</strong></summary>
+      <summary><strong>회차번호 (YY.MM.DD)</strong></summary>
       <strong>공통</strong>
       <ul>
         <li><a href="문제링크">문제_이름</a></li>
@@ -396,7 +385,7 @@
   </td>
   <td valign="top">
     <details>
-      <summary><strong>회차번호 (YYYY.MM.DD)</strong></summary>
+      <summary><strong>회차번호 (YY.MM.DD)</strong></summary>
       <strong>공통</strong>
       <ul>
         <li><a href="문제링크">문제_이름</a></li>
