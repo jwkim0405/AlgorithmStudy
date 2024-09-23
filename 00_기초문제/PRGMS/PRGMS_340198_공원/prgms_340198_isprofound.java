@@ -41,3 +41,57 @@ public class Solution {
         return true;
     }
 }
+
+---
+
+import java.util.Arrays;
+
+public class Solution {
+    public int solution(int[] mats, String[][] park) {
+        int rowLen = park.length;
+        int colLen = park[0].length;
+        int[][] grid = new int[rowLen][colLen];  // 공원의 상태를 숫자로 변환 (빈 공간: 1, 사람 있는 곳: 0)
+        
+        // 공원 배열을 숫자로 변환
+        for (int i = 0; i < rowLen; i++) {
+            for (int j = 0; j < colLen; j++) {
+                grid[i][j] = park[i][j].equals("-1") ? 1 : 0;
+            }
+        }
+
+        int maxSquare = 0;  // 가능한 최대 정사각형 크기
+        
+        // 각 위치에서 가능한 최대 정사각형 크기를 저장할 DP 테이블
+        int[][] dp = new int[rowLen][colLen];
+
+        // 첫 행과 첫 열은 그 자체로만 정사각형을 만들 수 있음
+        for (int i = 0; i < rowLen; i++) dp[i][0] = grid[i][0];  // 첫 열 초기화
+        for (int j = 0; j < colLen; j++) dp[0][j] = grid[0][j];  // 첫 행 초기화
+
+        // DP를 이용하여 각 점에서 만들 수 있는 정사각형 크기를 계산
+        for (int i = 1; i < rowLen; i++) {
+            for (int j = 1; j < colLen; j++) {
+                if (grid[i][j] == 1) {  // 빈 공간일 때만 계산
+                    dp[i][j] = Math.min(Math.min(dp[i-1][j], dp[i][j-1]), dp[i-1][j-1]) + 1;  // 정사각형 확장
+                    maxSquare = Math.max(maxSquare, dp[i][j]);  // 최대 크기 업데이트
+                }
+            }
+        }
+
+        // 돗자리 배열에서 가능한 최대 크기를 찾음
+        Arrays.sort(mats);  // 돗자리를 오름차순으로 정렬
+        for (int i = mats.length - 1; i >= 0; i--) {
+            if (mats[i] <= maxSquare) return mats[i];  // 가능한 최대 크기의 돗자리 반환
+        }
+
+        return -1;  // 아무 돗자리도 깔 수 없으면 -1 반환
+    }
+}
+
+
+
+
+
+
+
+
