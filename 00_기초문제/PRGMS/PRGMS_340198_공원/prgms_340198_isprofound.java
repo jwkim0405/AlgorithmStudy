@@ -62,7 +62,6 @@ public class Solution {
         int maxSquare = 0;  // 가능한 최대 정사각형 크기
         
         // 각 위치에서 가능한 최대 정사각형 크기를 저장할 DP 테이블
-        int[][] dp = new int[rowLen][colLen];
 
         // 첫 행과 첫 열은 그 자체로만 정사각형을 만들 수 있음
         for (int i = 0; i < rowLen; i++) dp[i][0] = grid[i][0];  // 첫 열 초기화
