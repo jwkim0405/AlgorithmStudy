@@ -25,8 +25,8 @@
 - 벌금은 2,000￦부터! 다음 벌금은 이전 벌금의 ✕ 2 🚨
 - 스터디 시작하기 전에 `pull request`하고 오기 📮
 - 발표자 미리 정해오기🙋‍♂️🙋‍♀️
-  - 화: 홍균, 정우, 혜민
-  - 금: 재현, 유영, 희주
+  - 화: 재현, 유영, 희주
+  - 금: 홍균, 정우, 혜민
 
 
 <br>
@@ -333,6 +333,63 @@
       <ul>
         <li><a href="https://www.acmicpc.net/problem/1197">BOJ_1197_최소스패닝트리</a></li>
         <li><a href="https://www.acmicpc.net/problem/2252">BOJ_2252_줄세우기</a></li>
+      </ul>
+    </details>
+  </td>
+</tr>
+<tr>
+  <td valign="top">
+    <details>
+      <summary><strong>21회차 (24.10.04)</strong></summary>
+      <strong>공통</strong>
+      <ul>
+        <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/340212">PRGMS_340212_퍼즐게임챌린지</a></li>
+        <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/340213">PRGMS_340213_동영상재생기</a></li>
+      </ul>
+    </details>
+  </td>
+  <td valign="top">
+    <details>
+      <summary><strong>회차번호 (YY.MM.DD)</strong></summary>
+      <strong>공통</strong>
+      <ul>
+        <li><a href="문제링크">문제_이름</a></li>
+        <!-- 추가할 문제가 있으면 여기에 추가 -->
+      </ul>
+      <strong>자율</strong>
+      <ul>
+        <li><a href="문제링크">문제_이름</a></li>
+        <!-- 추가할 문제가 있으면 여기에 추가 -->
+      </ul>
+    </details>
+  </td>
+  <td valign="top">
+    <details>
+      <summary><strong>회차번호 (YY.MM.DD)</strong></summary>
+      <strong>공통</strong>
+      <ul>
+        <li><a href="문제링크">문제_이름</a></li>
+        <!-- 추가할 문제가 있으면 여기에 추가 -->
+      </ul>
+      <strong>자율</strong>
+      <ul>
+        <li><a href="문제링크">문제_이름</a></li>
+        <!-- 추가할 문제가 있으면 여기에 추가 -->
+      </ul>
+    </details>
+  </td>
+  <td valign="top">
+    <details>
+      <summary><strong>회차번호 (YY.MM.DD)</strong></summary>
+      <strong>공통</strong>
+      <ul>
+        <li><a href="문제링크">문제_이름</a></li>
+        <!-- 추가할 문제가 있으면 여기에 추가 -->
+      </ul>
+      <strong>자율</strong>
+      <ul>
+        <li><a href="문제링크">문제_이름</a></li>
+        <!-- 추가할 문제가 있으면 여기에 추가 -->
       </ul>
     </details>
   </td>
