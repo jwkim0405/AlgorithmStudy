@@ -340,6 +340,63 @@
 <tr>
   <td valign="top">
     <details>
+      <summary><strong>21회차 (24.10.04)</strong></summary>
+      <strong>공통</strong>
+      <ul>
+        <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/340212">PRGMS_340212_퍼즐게임챌린지</a></li>
+        <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/340213">PRGMS_340213_동영상재생기</a></li>
+      </ul>
+    </details>
+  </td>
+  <td valign="top">
+    <details>
+      <summary><strong>회차번호 (YY.MM.DD)</strong></summary>
+      <strong>공통</strong>
+      <ul>
+        <li><a href="문제링크">문제_이름</a></li>
+        <!-- 추가할 문제가 있으면 여기에 추가 -->
+      </ul>
+      <strong>자율</strong>
+      <ul>
+        <li><a href="문제링크">문제_이름</a></li>
+        <!-- 추가할 문제가 있으면 여기에 추가 -->
+      </ul>
+    </details>
+  </td>
+  <td valign="top">
+    <details>
+      <summary><strong>회차번호 (YY.MM.DD)</strong></summary>
+      <strong>공통</strong>
+      <ul>
+        <li><a href="문제링크">문제_이름</a></li>
+        <!-- 추가할 문제가 있으면 여기에 추가 -->
+      </ul>
+      <strong>자율</strong>
+      <ul>
+        <li><a href="문제링크">문제_이름</a></li>
+        <!-- 추가할 문제가 있으면 여기에 추가 -->
+      </ul>
+    </details>
+  </td>
+  <td valign="top">
+    <details>
+      <summary><strong>회차번호 (YY.MM.DD)</strong></summary>
+      <strong>공통</strong>
+      <ul>
+        <li><a href="문제링크">문제_이름</a></li>
+        <!-- 추가할 문제가 있으면 여기에 추가 -->
+      </ul>
+      <strong>자율</strong>
+      <ul>
+        <li><a href="문제링크">문제_이름</a></li>
+        <!-- 추가할 문제가 있으면 여기에 추가 -->
+      </ul>
+    </details>
+  </td>
+</tr>
+<tr>
+  <td valign="top">
+    <details>
       <summary><strong>회차번호 (YY.MM.DD)</strong></summary>
       <strong>공통</strong>
       <ul>
