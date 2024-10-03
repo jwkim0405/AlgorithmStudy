@@ -15,7 +15,7 @@ class Solution {
         right = max;
         mid = (left+right) / 2;
         
-        binarySearch(diffs, times, limit, left, mid, right);
+        binarySearch(diffs, times, limit);
         return mid;
     }
     
@@ -40,7 +40,7 @@ class Solution {
     // 메서드2: 이분탐색
     // 만약 left==right까지 갔을 때 mid값이 false => return mid+1
     //                                  true => return mid
-    void binarySearch(int[] diffs, int[] times, long limit, int left, int mid, int right) {
+    void binarySearch(int[] diffs, int[] times, long limit) {
         if (left >= right) {
             if (!isLevelAvailable(diffs, times, limit, mid)) {
                 mid += 1;
@@ -54,7 +54,7 @@ class Solution {
             left = mid+1;
         
         mid = (left+right) / 2;
-        binarySearch(diffs, times, limit, left, mid, right);
+        binarySearch(diffs, times, limit);
     }
     
     
