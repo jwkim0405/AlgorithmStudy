@@ -371,7 +371,6 @@
         <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/181188">PRGMS_181188_요격시스템</a></li>
         <li><a href="https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AZIyCYJ6p30DFAQP">SWEA_22683_나무베기</a></li>
       </ul>
-
     </details>
   </td>
   <td valign="top">
