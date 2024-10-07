@@ -350,31 +350,22 @@
   </td>
   <td valign="top">
     <details>
-      <summary><strong>회차번호 (YY.MM.DD)</strong></summary>
+      <summary><strong>22회차 (24.10.08)</strong></summary>
       <strong>공통</strong>
       <ul>
-        <li><a href="문제링크">문제_이름</a></li>
-        <!-- 추가할 문제가 있으면 여기에 추가 -->
-      </ul>
-      <strong>자율</strong>
-      <ul>
-        <li><a href="문제링크">문제_이름</a></li>
+        <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/132267">PRGMS_132267_콜라문제</a></li>
+        <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/250137">PRGMS_250137_붕대감기</a></li>
         <!-- 추가할 문제가 있으면 여기에 추가 -->
       </ul>
     </details>
   </td>
   <td valign="top">
     <details>
-      <summary><strong>회차번호 (YY.MM.DD)</strong></summary>
+      <summary><strong>23회차 (24.10.11)</strong></summary>
       <strong>공통</strong>
       <ul>
-        <li><a href="문제링크">문제_이름</a></li>
-        <!-- 추가할 문제가 있으면 여기에 추가 -->
-      </ul>
-      <strong>자율</strong>
-      <ul>
-        <li><a href="문제링크">문제_이름</a></li>
-        <!-- 추가할 문제가 있으면 여기에 추가 -->
+        <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/181188">PRGMS_181188_요격시스템</a></li>
+        <li><a href="https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AZIyCYJ6p30DFAQP">SWEA_22683_나무베기</a></li>
       </ul>
     </details>
   </td>
