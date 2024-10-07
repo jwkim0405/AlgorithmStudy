@@ -1,7 +1,7 @@
 // 1부터 max(diffs)에서 이분탐색 진행해보자
 
 class Solution {
-    static int left = 1;
+    static int left;
     static int mid;
     static int right;
     public int solution(int[] diffs, int[] times, long limit) {
@@ -11,7 +11,7 @@ class Solution {
             max = Math.max(max, diffs[i]);
         
         // level을 이분탐색
-        int left = 1;
+        left = 1;
         right = max;
         mid = (left+right) / 2;
         
@@ -30,12 +30,9 @@ class Solution {
             
             if (sum > limit) return false;
         }
-        
-        // true false 결과 출력
-        if (sum <= limit)
-            return true;
-        return false;
-    }
+    
+        return true;
+     }
     
     // 메서드2: 이분탐색
     // 만약 left==right까지 갔을 때 mid값이 false => return mid+1
@@ -55,7 +52,5 @@ class Solution {
         
         mid = (left+right) / 2;
         binarySearch(diffs, times, limit);
-    }
-    
-    
+    }   
 }
