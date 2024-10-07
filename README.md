@@ -350,7 +350,7 @@
   </td>
   <td valign="top">
     <details>
-      <summary><strong>회차번호 (24.10.08)</strong></summary>
+      <summary><strong>22회차 (24.10.08)</strong></summary>
       <strong>공통</strong>
       <ul>
         <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/132267">PRGMS_132267_콜라문제</a></li>
