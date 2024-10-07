@@ -357,11 +357,6 @@
         <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/250137">PRGMS_250137_붕대감기</a></li>
         <!-- 추가할 문제가 있으면 여기에 추가 -->
       </ul>
-      <strong>자율</strong>
-      <ul>
-        <li><a href="문제링크">문제_이름</a></li>
-        <!-- 추가할 문제가 있으면 여기에 추가 -->
-      </ul>
     </details>
   </td>
   <td valign="top">
