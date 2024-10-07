@@ -11,7 +11,7 @@ class Solution {
             max = Math.max(max, diffs[i]);
         
         // level을 이분탐색
-        int left = 1;
+        left = 1;
         right = max;
         mid = (left+right) / 2;
         
