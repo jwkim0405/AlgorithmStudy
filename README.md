@@ -393,8 +393,6 @@
       <ul>
         <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/42578">PRGMS_42578_의상</a></li>
         <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/87946">PRGMS_87946_피로도</a></li>
-
-        <!-- 추가할 문제가 있으면 여기에 추가 -->
       </ul>
     </details>
   </td>
