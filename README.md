@@ -394,7 +394,7 @@
   </td>
   <td valign="top">
     <details>
-      <summary><strong>26회차 (YY.MM.DD)</strong></summary>
+      <summary><strong>26회차 24.10.22)</strong></summary>
       <strong>공통</strong>
       <ul>
         <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/258711">PRGMS_258711_도넛과_막대그래프</a></li>
