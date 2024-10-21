@@ -2,7 +2,7 @@ import java.util.*;
 
 class Solution {
 	public int solution(String[][] clothes) {
-		ArrayList<Integer> list = new ArrayList<>();
+			ArrayList<Integer> list = new ArrayList<>();
 			Map<String, Integer> map = new HashMap<>();
 				            
 			for(int i = 0; i<clothes.length; i++){

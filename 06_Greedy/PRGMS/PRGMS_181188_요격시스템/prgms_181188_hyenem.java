@@ -14,9 +14,6 @@ class Solution {
             return this.end-node.end;
         }
         
-        public String toString(){
-            return start+" "+end;
-        }
     }
     
     public int solution(int[][] targets) {
