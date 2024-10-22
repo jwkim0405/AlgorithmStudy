@@ -409,7 +409,7 @@
       <strong>공통</strong>
       <ul>
         <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/42860">PRGMS_42860_조이스틱</a></li>
-        <li><a href="문제링크">문제_이름</a></li>
+        <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/250135">PRGMS_250135_아날로그_시계</a></li>
       </ul>
     </details>
   </td>
