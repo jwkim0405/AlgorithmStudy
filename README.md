@@ -420,14 +420,7 @@
       <ul>
         <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/150370">PRGMS_150370_개인정보수집유효기간</a></li>
         <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/118666">PRGMS_118666_성격유형검사하기</a></li>
-        <!-- 추가할 문제가 있으면 여기에 추가 -->
-      </ul>
-      <strong>자율</strong>
-      <ul>
-        <li><a href="문제링크">문제_이름</a></li>
-        <!-- 추가할 문제가 있으면 여기에 추가 -->
-      </ul>
-    </details>
+      </details>
   </td>
 </tr>
 <tr>
