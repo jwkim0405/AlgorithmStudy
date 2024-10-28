@@ -403,24 +403,24 @@
       </ul>
     </details>
   </td>
+    <td valign="top">
+    <details>
+      <summary><strong>27회차 (24.10.29)</strong></summary>
+      <strong>공통</strong>
+      <ul>
+        <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/150370">PRGMS_150370_개인정보수집유효기간</a></li>
+        <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/118666">PRGMS_118666_성격유형검사하기</a></li>
+      </details>
+  </td>
   <td valign="top">
     <details>
-      <summary><strong>27회차 (24.10.25)</strong></summary>
+      <summary><strong>28회차 (24.11.01)</strong></summary>
       <strong>공통</strong>
       <ul>
         <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/42860">PRGMS_42860_조이스틱</a></li>
         <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/250135">PRGMS_250135_아날로그_시계</a></li>
       </ul>
     </details>
-  </td>
-  <td valign="top">
-    <details>
-      <summary><strong>28회차 (24.10.29)</strong></summary>
-      <strong>공통</strong>
-      <ul>
-        <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/150370">PRGMS_150370_개인정보수집유효기간</a></li>
-        <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/118666">PRGMS_118666_성격유형검사하기</a></li>
-      </details>
   </td>
 </tr>
 <tr>
@@ -457,6 +457,68 @@
   <td valign="top">
     <details>
       <summary><strong>회차번호 (YY.MM.DD)</strong></summary>
+      <strong>공통</strong>
+      <ul>
+        <li><a href="문제링크">문제_이름</a></li>
+        <!-- 추가할 문제가 있으면 여기에 추가 -->
+      </ul>
+      <strong>자율</strong>
+      <ul>
+        <li><a href="문제링크">문제_이름</a></li>
+        <!-- 추가할 문제가 있으면 여기에 추가 -->
+      </ul>
+    </details>
+  </td>
+  <td valign="top">
+    <details>
+      <summary><strong>회차번호 (YY.MM.DD)</strong></summary>
+      <strong>공통</strong>
+      <ul>
+        <li><a href="문제링크">문제_이름</a></li>
+        <!-- 추가할 문제가 있으면 여기에 추가 -->
+      </ul>
+      <strong>자율</strong>
+      <ul>
+        <li><a href="문제링크">문제_이름</a></li>
+        <!-- 추가할 문제가 있으면 여기에 추가 -->
+      </ul>
+    </details>
+  </td>
+</tr>
+<tr>
+  <td valign="top">
+    <details>
+      <summary><strong>회차번호 (YY.MM.DD)</strong></summary>
+      <strong>공통</strong>
+      <ul>
+        <li><a href="문제링크">문제_이름</a></li>
+        <!-- 추가할 문제가 있으면 여기에 추가 -->
+      </ul>
+      <strong>자율</strong>
+      <ul>
+        <li><a href="문제링크">문제_이름</a></li>
+        <!-- 추가할 문제가 있으면 여기에 추가 -->
+      </ul>
+    </details>
+  </td>
+  <td valign="top">
+    <details>
+      <summary><strong>회차번호 (YY.MM.DD)</strong></summary>
+      <strong>공통</strong>
+      <ul>
+        <li><a href="문제링크">문제_이름</a></li>
+        <!-- 추가할 문제가 있으면 여기에 추가 -->
+      </ul>
+      <strong>자율</strong>
+      <ul>
+        <li><a href="문제링크">문제_이름</a></li>
+        <!-- 추가할 문제가 있으면 여기에 추가 -->
+      </ul>
+    </details>
+  </td>
+  <td valign="top">
+    <details>
+      <summary><strong>회차번호 (YY.MM.DD)</strong></summary>https://github.com/jwkim0405/AlgorithmStudy/blob/master/README.md
       <strong>공통</strong>
       <ul>
         <li><a href="문제링크">문제_이름</a></li>
