@@ -441,10 +441,11 @@
   </td>
   <td valign="top">
     <details>
-      <summary><strong>회차번호 (YY.MM.DD)</strong></summary>
+      <summary><strong>30회차 (24.11.04)</strong></summary>
       <strong>공통</strong>
       <ul>
-        <li><a href="문제링크">문제_이름</a></li>
+        <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/42883">PRGMS_42883_큰수만들기</a></li>
+        <li><a href="문제링크">PRGMS_</a></li>
         <!-- 추가할 문제가 있으면 여기에 추가 -->
       </ul>
       <strong>자율</strong>
@@ -518,7 +519,7 @@
   </td>
   <td valign="top">
     <details>
-      <summary><strong>회차번호 (YY.MM.DD)</strong></summary>https://github.com/jwkim0405/AlgorithmStudy/blob/master/README.md
+      <summary><strong>회차번호 (YY.MM.DD)</strong></summary>
       <strong>공통</strong>
       <ul>
         <li><a href="문제링크">문제_이름</a></li>
