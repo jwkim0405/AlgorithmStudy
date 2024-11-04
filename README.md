@@ -440,7 +440,7 @@
       <strong>공통</strong>
       <ul>
         <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/42883">PRGMS_42883_큰수만들기</a></li>
-        <li><a href="문제링크">PRGMS_</a></li>
+        <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/42862">PRGMS_42862_체육복</a></li>
       </ul>
     </details>
   </td>
