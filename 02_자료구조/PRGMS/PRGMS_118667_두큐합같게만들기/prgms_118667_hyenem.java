@@ -18,7 +18,7 @@ class Solution {
         int left = 0;
         int right = N;
         long acc = sum1;
-        while(left<=right&& right<2*N){
+        while(left<right&& right<2*N){
             if(acc==avg){
                 return left+right-N;
             } else if(acc<avg){
