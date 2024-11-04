@@ -430,7 +430,7 @@
       <strong>공통</strong>
       <ul>
         <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/118667">PRGMS_118667_두큐합같게만들기</a></li>
-        <li><a href="">PRGMS_</a></li>
+        <li><a href="https://school.programmers.co.kr/learn/courses/30/lessons/64061">PRGMS_64061_크레인인형뽑기게임</a></li>
       </ul>
     </details>
   </td>
