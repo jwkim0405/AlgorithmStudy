@@ -16,11 +16,6 @@ class Solution {
             move = Math.min(move, list.get(i)+2*(N-list.get(i+1)));
         }
         move = Math.min(move, list.get(list.size()-1));
-        if(list.get(0)==0){
-            move = Math.min(N-list.get(1), move);
-        } else {
-            move = Math.min(N-list.get(0), move);
-        }
         ans+=move;
         return ans;
     }

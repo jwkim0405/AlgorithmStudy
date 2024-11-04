@@ -6,32 +6,32 @@ class Solution {
         int cycle = (endSec-startSec)/60;
         int ans = cycle*2;
         
-        float hourStartAngle = ((float)startSec/120)%360;
-        float hourEndAngle = ((float)endSec/120)%360;
+        double hourStartAngle = ((double)startSec/120)%360;
+        double hourEndAngle = ((double)endSec/120)%360;
         if(hourEndAngle==0) hourEndAngle=360;
-        System.out.println(hourStartAngle);
-        System.out.println(hourEndAngle);
+//        System.out.println(hourStartAngle);
+//        System.out.println(hourEndAngle);
         
-        float minuteStartAngle = ((float)startSec/10)%360;
-        float minuteEndAngle = ((float)endSec/10)%360;
+        double minuteStartAngle = ((double)startSec/10)%360;
+        double minuteEndAngle = ((double)endSec/10)%360;
         if(minuteEndAngle==0) minuteEndAngle=360;
-        System.out.println(minuteStartAngle);
-        System.out.println(minuteEndAngle);
+//        System.out.println(minuteStartAngle);
+//        System.out.println(minuteEndAngle);
         
-        float secondStartAngle = (startSec*6)%360;
-        float secondEndAngle = (endSec*6)%360;
+        double secondStartAngle = (startSec*6)%360;
+        double secondEndAngle = (endSec*6)%360;
         if(secondEndAngle==0) secondEndAngle=360;
-        System.out.println(secondStartAngle);
-        System.out.println(secondEndAngle);
+//        System.out.println(secondStartAngle);
+//        System.out.println(secondEndAngle);
         
         if(secondStartAngle<=hourStartAngle && secondEndAngle >= hourEndAngle) ans++;
         if(secondStartAngle<=minuteStartAngle && secondEndAngle >= minuteEndAngle) ans++;
-        System.out.println(ans);
+//        System.out.println(ans);
         ans-=(endSec*11)/(3600*12)-(startSec*11-1)/(3600*12);
-        System.out.println(endSec);
-        System.out.println((endSec*11)/(3600*12));
-        System.out.println(startSec+1);
-        System.out.println((startSec*11-1)/(3600*12));
+//        System.out.println(endSec);
+//        System.out.println((endSec*11)/(3600*12));
+//        System.out.println(startSec+1);
+//        System.out.println((startSec*11-1)/(3600*12));
         
         return ans;
     }
